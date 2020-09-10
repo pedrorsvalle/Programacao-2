@@ -36,6 +36,34 @@ class Sapato
 ----------
 Professor
 ----------
+class Professor
+{
+	public string cor;
+	public string nome;
+	public string materia;
+
+	public void mexer(){
+}
+
+	public void piscar(){
+}
+{
+	public static void main(String[] args) {
+
+		Professor o1 = new Professor();
+		Prof1.cor="castanho"
+		Prof1.nome= "maria"
+		Prof1.materia= "fisica"	
+
+		Professor o2 = new Professor();
+		Prof2.cor="castanho"
+		Prof2.nome= "isabella"
+		Prof2.materia= "quimica"
+		
+		System.out.println(Prof1);
+		System.out.println(Prof2);
+	}
+}
 
 
 ----------
@@ -147,14 +175,14 @@ class Carro
 	public static void main(String[] args) {
 
 		Carro car1 = new Carro();
-		car1.nome=""
-		car1.marca= ""
-		car1.cor= ""
+		car1.tamanho="sdan"
+		car1.marca= "bmw"
+		car1.cor= "preto"
 		
 		Carro car2 = new Carro();
-		car2.nome=""
-		car2.idade= ""
-		car2.cor= ""
+		car2.tamanho="sdan"
+		car2.marca= "volkswagen"
+		car2.cor= "vermelho"
 		
 		System.out.println(car1);
 		System.out.println(car2);
