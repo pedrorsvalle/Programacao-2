@@ -1,1 +1,170 @@
+------------
+Sapato 
+------------
+
+class Sapato
+{
+	public INT tamanho;
+	public string modelo;
+	public string cor;
+	public string material;
+	
+	public void vestir(){
+}
+	public void arrebentar(){
+}
+{
+	public static void main(String[] args) {
+
+		Sapato s1 = new Sapato();
+		s1.tamanho="43"
+		s1.modelo= "chinelo"
+		s1.cor= "branco"
+		s1.material= "borracha"
+		
+		Sapatos2 = new Carro();
+		s2.tamanho="43"
+		s2.modelo= "tenis"
+		s2.cor= "preto"
+		s2.material= "camurça"
+		
+		System.out.println(s1);
+		System.out.println(s2);
+	}
+}
+
+----------
+Professor
+----------
+
+
+----------
+  Olho
+----------
+
+class Olho
+{
+	public string cor;
+	public string saude;
+	public string lado;
+
+	public void mexer(){
+}
+
+	public void piscar(){
+}
+{
+	public static void main(String[] args) {
+
+		Olho o1 = new Olho();
+		o1.cor="castanho"
+		o1.saude= "bom"
+		o1.lado= "direito"	
+
+		Olho o2 = new Olho();
+		o2.cor="castanho"
+		o2.saude= "1 grau"
+		o2.lado= "esquerdo"
+		
+		System.out.println(o1);
+		System.out.println(o2);
+	}
+}
+
+----------
+  Cabeça
+----------
+class Cabeca
+
+{
+	public string tamanho;
+	public string formato;
+	public string cor;
+
+	public void mexer(){
+}	
+{
+	public static void main(String[] args) {
+
+		Cabeca cab1 = new Cabeca();
+		cab1.tamanho="grande"
+		cab1.formato= "oval"
+		cab1.cor= "loiro"
+		
+		cabeca cab2 = new cabeca();
+		cab2.tamanho="pequena"
+		cab2.formato= "achatada"
+		cab2.cor= "loiro"
+		
+		System.out.println(cab1);
+		System.out.println(cab2);
+	}
+}
+
+---------
+  Aluno
+---------
+class Aluno
+
+{
+	public string nome;
+	public string idade;
+	public string cor;
+
+	public void mexer(){
+}	
+{
+	public static void main(String[] args) {
+
+		Cabeca alu1 = new Cabeca();
+		alu1.nome="isabella"
+		alu1.idade= "20"
+		alu1.cor= "loira"
+		
+		cabeca alu2 = new cabeca();
+		alu2.nome="pedro"
+		alu2.idade= "21"
+		alu2.cor= "loiro"
+		
+		System.out.println(alu1);
+		System.out.println(alu2);
+	}
+}
+
+--------
+  carro
+--------
+
+class Carro
+{
+	public string tamanho;
+	public string marca;
+	public string cor;
+
+	public void mexer(){
+}	
+{
+	public static void main(String[] args) {
+
+		Carro car1 = new Carro();
+		car1.nome=""
+		car1.marca= ""
+		car1.cor= ""
+		
+		Carro car2 = new Carro();
+		car2.nome=""
+		car2.idade= ""
+		car2.cor= ""
+		
+		System.out.println(car1);
+		System.out.println(car2);
+	}
+}
+
+
+
+
+
+
+
 
