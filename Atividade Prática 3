@@ -136,7 +136,7 @@ class Aluno
 
 {
 	public string nome;
-	public string idade;
+	public int idade;
 	public string cor;
 
 	public void mexer(){
