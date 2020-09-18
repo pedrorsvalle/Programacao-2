@@ -1,3 +1,9 @@
+ /*
+Pedro Rodrigues Santos Valle 
+Matrícula: 01810422
+*/
+
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -478,12 +484,7 @@ public class JFrameCalculadora extends javax.swing.JFrame {
                     
                 }
             }
-                
-                
-                
-                
-           
-            
+       
              
     
     // Variables declaration - do not modify//GEN-BEGIN:variables
