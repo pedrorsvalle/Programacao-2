@@ -120,6 +120,50 @@ public class Trapezio {
             
 }
 
+
+
+4 - 3-	Faça um programa que receba a quantidade de dinheiro em reais que uma pessoa que vai viajar possui. Essa pessoa vai passar por vários países e precisa converter seu dinheiro em dólares, marco alemão e libra esterlina. Sabe-se que a cotação do dólar é de R$ 1,80, do marco alemão é de R$ 2,00 e da libra esterlina é de R$ 1,57. O programa deve fazer as conversões e mostrar a quantidade de dinheiro correspondente a cada moeda. Obs crie métodos para converter para cada moeda. 
+package atividades;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author pedro
+ */
+public class Moeda {
+    float real;
+     float dolar;
+     float marcoAlemao;
+     float liabraesterlina;
+    
+    Moeda (float dolar,float marcoAlemao, float liabraesterlina){
+    this.dolar = dolar;
+    this.marcoAlemao = marcoAlemao;
+    this.liabraesterlina = liabraesterlina;        
+    
+    }
+ 
+    public static void main(String[] args){
+        Moeda y = new Moeda((float)1.80,
+                (float)2.00,
+                (float)1.57);
+        float moedar;
+        
+         Scanner eny = new Scanner(System.in);
+        System.out.printf("Entre com dih (em reais):");
+        moedar= eny.nextFloat();
+        y.dolar= moedar/y.dolar;         
+        y.marcoAlemao= moedar/y.marcoAlemao; 
+        y.liabraesterlina= moedar/y.liabraesterlina;  
+         System.out.printf("ver valor da conversão:\n dolar: %2.2f,marcoAlemao%2.2f ,liabraesterlina %2.2f", y.dolar, y.marcoAlemao, y.liabraesterlina );
+         
+    
+    }
+}
+
+
+
 5. Elabore uma classe que dada a idade via construtor de um nadador classifique-o em uma das seguintes categorias:
  Infantil A = 5 a 7 anos
  Infantil B = 8 a 11 anos
