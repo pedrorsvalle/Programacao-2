@@ -81,6 +81,152 @@ public class Terreno {
 }
 
 	 
+3- Faça um programa que calcule e mostre a área de um trapézio. Sabe-se que: A = (base maior + base menor) * altura) /2; 
 
+
+package atividades;
+import java.io.PrintStream;
+import static java.time.Clock.system;
+import java.util.Scanner;
+/**
+ *
+ * @author pedro
+ */
+public class Trapezio {
+    float baseMaior;
+    float baseMenor;
+    float altura;
+    
+    public static void main(String[] args){
+        Trapezio tra =new Trapezio ();
+   tra.baseMaior=0;
+   tra.baseMenor=0;
+   tra.altura=0;
+   float area;
+   
+   Scanner entrada = new Scanner (System.in);
+   
+     System.out.printf("Digite o Valor da Base Maior: ");
+        tra.baseMaior= entrada.nextFloat();
+        System.out.printf("/nDigite  o Valor da Base Menor: ");
+        tra.baseMenor= entrada.nextFloat();
+        PrintStream printf = System.out.printf("/nDigite o Valor da altura:");
+        tra.altura= entrada.nextFloat();
+        area=(tra.baseMaior+tra.baseMenor)*tra.altura/2;
+          System.out.printf("o valor da Area é :%2.3f ", area);
+    
+    
+    }
+            
+}
+
+5. Elabore uma classe que dada a idade via construtor de um nadador classifique-o em uma das seguintes categorias:
+ Infantil A = 5 a 7 anos
+ Infantil B = 8 a 11 anos
+ Juvenil A = 12 a 13 anos
+ Juvenil B = 14 a 17 anos
+ Adultos = Maiores de 18 anos 
+
+Resposta:
+package ex5;
+import javax.swing.JOptionPane;
+/**
+ *
+ * @author pedro
+ */
+public class Ex5 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+     int idade;
+ 
+        System.out.println("Informe a sua idade");
+        idade = Integer.parseInt(JOptionPane.showInputDialog("Informe a sua idade"));
+ 
+        if(idade <= 4){
+            System.out.println("Muito jovem!");
+        }
+ 
+        if((idade >= 5) && (idade <= 7)){
+            System.out.println("Infantil A");
+        }
+ 
+        if((idade >= 8) && (idade <= 10)){
+            System.out.println("Infantil B");
+        }
+ 
+        if((idade >= 11) && (idade <= 13)){
+            System.out.println("Juvenil A");
+        }
+ 
+        if((idade >= 14) && (idade <= 17)){
+            System.out.println("Juvenil B");
+        }
+ 
+        if(idade >= 18){
+            System.out.println("Adulto");
+        }    
+ 
+    }
+}  
+
+
+6. Elabore uma classe para calcular a equação do segundo grau e imprima as raízes da equação na tela, os valores a, b e c são inseridos pelo usuário: ax2 + bx + c = 0,  = b2 - 4ac , a b x 2 −   = 
+ 
+package raizdebaskara;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author pedro
+ */
+public class RaizDeBaskara {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+     
+        float a, b, c, delta, x1, x2;
+
+		System.out.println("\n Digite o Valor de A ");
+		Scanner v1 = new Scanner(System.in);
+		a = v1.nextFloat();
+		
+		System.out.println("\n Digite o Valor de B ");
+		Scanner v2 = new Scanner(System.in);
+		b = v2.nextFloat();
+		
+		System.out.println("\n Digite o Valor de C ");
+		Scanner v3 = new Scanner(System.in);
+		c = v3.nextFloat();
+
+		// calculo de delta, baskara
+		delta = b * b - 4 * a * c;// 
+                /**/
+		if (delta >0) {// 
+                    x1 = (float) ((-b + Math.sqrt(delta)) / (2 * a));// x'calculo
+                    
+                    
+                    x2 = (float) ((-b - Math.sqrt(delta)) / (2 * a));// x"
+                    //
+                    
+                    System.out.println("\n Valor de X' e = " + x1
+                            + "\n Valor de X'' e = " + x2);
+                    
+                } else {
+                    System.out
+                            .println("Não e possivel calcular esta Raiz, não e um numero real ");
+                }
+
+
+
+	}
+
+}
+       
 
 
