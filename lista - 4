@@ -1,0 +1,86 @@
+lista 4
+
+*-*-*--*-*--*
+
+
+
+Pedro Rodrigues Santos Valle
+Matrícula: 01810422
+
+Utilize conceitos de Programação Orientada a Objetos para resolver 
+1.	Construa a classe salário, está é responsável por calcular o salário líquido do funcionário sabendo que este é constituído pelo salário bruto mais o valor das horas extras subtraindo 8% de INSS do total. Serão lidos nesse problema o salário bruto, o valor das horas extras e o número de horas extras. Apresentar ao final o salário líquido.
+package salario;
+        
+        import java.util.Scanner;
+
+    public class Salario {
+    public float salariobruto;
+    public float valorHE; //HE = Horas Extras 
+    public int nHE; // nHE = Nº de Horas Extras 
+    public float iNSS;
+    
+    public static void main(String[] args){
+        Salario sl = new Salario();
+        sl.iNSS=(float) 0.08;
+        
+        Scanner entrada= new Scanner(System.in);
+        
+        sl.nHE=0;
+        sl.salariobruto=0;
+        sl.valorHE=0;
+        float salariop1=0; //
+        float salarioLiquido=0; 
+        
+        System.out.print("Digite o Seu Salario Bruto: ");
+        sl.salariobruto= entrada.nextFloat();
+        System.out.print("/nDigite o valor das horas extras: ");
+        sl.valorHE= entrada.nextFloat();
+        System.out.print("/nDigite o numero de horas extras: ");
+        sl.nHE= entrada.nextInt(); 
+        
+        salariop1= sl.salariobruto + (sl.valorHE * sl.nHE);
+        salarioLiquido= salariop1*(1-sl.iNSS);
+        
+        System.out.printf("O salario liquido é = %2.3f",salarioLiquido);
+     
+    }
+}
+ 
+
+2.	Crie a classe Terreno para resolver o seguinte problema: Uma imobiliária vende terrenos retangulares. Faça um programa para ler as dimensões de um terreno e depois exibir a área e comprimento. 
+package atividades;
+
+import java.util.Scanner;
+
+public class Terreno {
+    float comprimento;
+    float largura;
+    
+    
+    public static void main(String[] args){
+    
+        Terreno te = new Terreno();
+        te.comprimento=0;
+        te.largura=0;
+        float area;
+        
+        Scanner entrada = new Scanner(System.in);
+        
+        System.out.printf("Digite o Comprimento: ");
+        te.comprimento= entrada.nextFloat();
+        
+        System.out.printf("/n Digite a Largura: ");
+        te.largura = entrada.nextFloat();
+        area=te.comprimento*te.largura;
+        
+        System.out.printf("Sua Area do Terreno é de %2.2fm e comptimento de% 2.2fm ", area,te.comprimento);
+  
+        
+    }
+
+}
+
+	 
+
+
+
