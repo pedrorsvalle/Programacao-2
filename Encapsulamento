@@ -1,0 +1,231 @@
+
+package atividades;
+
+/**
+ *
+ * @author pedro
+ */
+public class Classe_private_Cliente {
+  
+     private char CPF;
+     private String E_mail;
+     private String Confirmar1;
+     private float Senha;
+     private String Confirmar2;
+     private String Nome;
+     private String Sobrenome;
+     private char Nascimento;
+     private char Rg;
+     private String Sexo;        
+     private char Cep;
+     private String Endereço;
+     private char Numero;       
+     private String Bairro;
+     private String Complemento;
+     private String Cidade; 
+     private String Estado;
+     private String DDD_Telefone;
+     private String DDD_Celular; 
+     
+     /**/    
+
+    /**
+     *
+     * @param Cpf
+     */
+    
+     public  void setCpf(char Cpf){           
+             this.CPF  = Cpf;
+    
+             
+    }  
+           public  char  getCpf(){           
+           return  this.CPF; 
+           
+    }
+      public  void setE_mail(String E_mail){           
+             this.E_mail  = E_mail;
+    
+             
+    }  
+           public  String  getE_mail(){           
+           return  this.E_mail;      
+    }       
+     
+      public  void setConfirmar1(String Confirmar1){           
+             this.Confirmar1  = Confirmar1;
+    
+             
+    }  
+           public  String  getConfirmar1(){           
+           return  this.Confirmar1;        
+    } 
+            
+     
+      public  void setConfirmar1(float Senha){           
+             this.Senha  = Senha;
+    
+             
+    }  
+           public  float  getSenha(){           
+           return  this.Senha;      
+           
+      } 
+            
+     
+      public  void setConfirmar2(String Confirmar2){           
+             this.Confirmar2 = Confirmar2;
+    
+             
+    }  
+           public  String  getConfirmar2(){           
+           return  this.Confirmar2;      
+     } 
+            
+     
+      public  void setNome(String Nome){           
+             this.Nome = Nome;
+    
+             
+    }  
+           public  String  getNome(){           
+           return  this.Nome;             
+    } 
+            
+     
+      public  void setSobrenome(String Sobrenome){           
+             this.Sobrenome = Sobrenome;
+    
+             
+    }  
+           public  String  getSobrenome(){           
+           return  this.Sobrenome; 
+     } 
+            
+     
+      public  void setNascimento(char Nascimento){           
+             this.Nascimento = Nascimento;
+    
+             
+    }  
+           public char  getNascimento(){           
+           return  this.Nascimento;        
+      } 
+            
+     
+      public  void setRg(char Rg){           
+             this.Rg = Rg;
+    
+          
+    }  
+           public char  getRg(){           
+           return  this.Rg;        
+                
+        } 
+            
+     
+      public  void setSexo(String Sexo){           
+             this.Sexo = Sexo;
+    
+          
+    }  
+           public String  getSexo(){           
+           return  this.Sexo;        
+                   
+     } 
+            
+   
+      public  void setCep (char Cep){           
+             this.Cep = Cep;
+    
+          
+    }  
+           public char   getCep(){           
+           return  this.Cep;        
+                          
+    } 
+            
+   
+      public  void setCep (String Endereço){           
+             this.Endereço = Endereço;
+    
+          
+    }  
+           public String getEndereço(){           
+           return  this.Endereço;       
+ 
+    } 
+            
+   
+      public  void setNumero (char Numero){           
+             this.Numero = Numero;
+    
+          
+    }  
+           public char  getNumero(){           
+           return  this.Numero;       
+    } 
+            
+   
+      public  void setBairro (String Bairro){           
+             this.Bairro = Bairro;
+    
+          
+    }  
+           public String  getBairro(){           
+           return  this.Bairro; 
+      } 
+            
+   
+      public  void setComplemento (String Complemento){           
+             this.Complemento = Complemento;
+    
+          
+    }  
+           public String  getComplemento(){           
+           return  this.Complemento; 
+                 
+    } 
+            
+   
+      public  void setCidade (String Cidade){           
+             this.Cidade = Cidade;
+    
+          
+    }  
+           public String  getCidade(){           
+           return  this.Cidade; 
+    } 
+            
+   
+      public  void setEstado (String Estado){           
+             this.Estado = Estado;
+    
+          
+    }  
+           public String  getEstadoe(){           
+           return  this.Estado;                     
+    } 
+            
+   
+      public  void setDDD_Telefone (String DDD_Telefone){           
+             this.DDD_Telefone = DDD_Telefone;
+    
+          
+    }  
+           public String  getDDD_Telefone(){           
+           return  this.DDD_Telefone;                     
+      } 
+            
+   
+      public  void setDDD_Celular (String DDD_Celular){           
+             this.DDD_Celular = DDD_Celular;
+    
+          
+    }  
+           public String  getDDD_Celular(){           
+           return  this.DDD_Celular;                     
+                               
+           
+      }
+}
