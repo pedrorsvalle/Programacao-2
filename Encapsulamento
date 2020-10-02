@@ -1,4 +1,9 @@
 
+
+Pedro Rodrigues Santos Valle 
+Matrícula:01810422
+
+
 package atividades;
 
 /**
@@ -6,226 +11,282 @@ package atividades;
  * @author pedro
  */
 public class Classe_private_Cliente {
-  
-     private char CPF;
-     private String E_mail;
-     private String Confirmar1;
-     private float Senha;
-     private String Confirmar2;
-     private String Nome;
-     private String Sobrenome;
-     private char Nascimento;
-     private char Rg;
-     private String Sexo;        
-     private char Cep;
-     private String Endereço;
-     private char Numero;       
-     private String Bairro;
-     private String Complemento;
-     private String Cidade; 
-     private String Estado;
-     private String DDD_Telefone;
-     private String DDD_Celular; 
-     
-     /**/    
-
-    /**
-     *
-     * @param Cpf
-     */
     
-     public  void setCpf(char Cpf){           
-             this.CPF  = Cpf;
+     private String cpf;
+     private String e_mail;
+     private String confirmar1;
+     private float senha;
+     private String confirmar2;
+     private String nome;
+     private String sobrenome;
+     private char nascimento;
+     private char rg;
+     private String sexo;        
+     private char cep;
+     private String endereço;
+     private char numero;       
+     private String bairro;
+     private String complemento;
+     private String cidade; 
+     private String estado;
+     private String ddd_telefone;
+     private String ddd_celular; 
+   
+     
+
+      
+     public  void setCpf(String cpf){           
+             this.cpf  = cpf;
     
              
     }  
-           public  char  getCpf(){           
-           return  this.CPF; 
+           
+    public  String getCpf(){           
+           return  this.cpf; 
            
     }
-      public  void setE_mail(String E_mail){           
-             this.E_mail  = E_mail;
+      public  void setE_mail(String e_mail){           
+             this.e_mail  = e_mail;
     
              
     }  
            public  String  getE_mail(){           
-           return  this.E_mail;      
+           return  this.e_mail;      
     }       
      
-      public  void setConfirmar1(String Confirmar1){           
-             this.Confirmar1  = Confirmar1;
+      public  void setConfirmar1(String confirmar1){           
+             this.confirmar1  = confirmar1;
     
              
     }  
            public  String  getConfirmar1(){           
-           return  this.Confirmar1;        
+           return  this.confirmar1;        
     } 
             
      
-      public  void setConfirmar1(float Senha){           
-             this.Senha  = Senha;
+      public  void setsenha(float senha){           
+            this.senha = senha;
     
              
     }  
            public  float  getSenha(){           
-           return  this.Senha;      
+           return  this.senha;      
            
       } 
             
      
-      public  void setConfirmar2(String Confirmar2){           
-             this.Confirmar2 = Confirmar2;
+      public  void setConfirmar2(String confirmar2){           
+             this.confirmar2 = confirmar2;
     
              
     }  
            public  String  getConfirmar2(){           
-           return  this.Confirmar2;      
+           return  this.confirmar2;      
      } 
             
      
-      public  void setNome(String Nome){           
-             this.Nome = Nome;
+      public  void setNome(String nome){           
+             this.nome = nome;
     
              
     }  
            public  String  getNome(){           
-           return  this.Nome;             
+           return  this.nome;             
     } 
             
      
-      public  void setSobrenome(String Sobrenome){           
-             this.Sobrenome = Sobrenome;
+      public  void setSobrenome(String sobrenome){           
+             this.sobrenome = sobrenome;
     
              
     }  
            public  String  getSobrenome(){           
-           return  this.Sobrenome; 
+           return  this.sobrenome; 
      } 
             
      
-      public  void setNascimento(char Nascimento){           
-             this.Nascimento = Nascimento;
+      public  void setNascimento(char nascimento){           
+             this.nascimento = nascimento;
     
              
     }  
            public char  getNascimento(){           
-           return  this.Nascimento;        
+           return  this.nascimento;        
       } 
             
      
-      public  void setRg(char Rg){           
-             this.Rg = Rg;
+      public  void setRg(char rg){           
+             this.rg = rg;
     
           
     }  
            public char  getRg(){           
-           return  this.Rg;        
+           return  this.rg;        
                 
         } 
             
      
-      public  void setSexo(String Sexo){           
-             this.Sexo = Sexo;
+      public  void setSexo(String sexo){           
+             this.sexo = sexo;
     
           
     }  
            public String  getSexo(){           
-           return  this.Sexo;        
+           return  this.sexo;        
                    
      } 
             
    
-      public  void setCep (char Cep){           
-             this.Cep = Cep;
+      public  void setCep (char cep){           
+             this.cep = cep;
     
           
     }  
            public char   getCep(){           
-           return  this.Cep;        
+           return  this.cep;        
                           
     } 
             
    
-      public  void setCep (String Endereço){           
-             this.Endereço = Endereço;
+      public  void setCep (String endereço){           
+             this.endereço = endereço;
     
           
     }  
            public String getEndereço(){           
-           return  this.Endereço;       
+           return  this.endereço;       
  
     } 
             
    
-      public  void setNumero (char Numero){           
-             this.Numero = Numero;
+      public  void setNumero (char numero){           
+             this.numero = numero;
     
           
     }  
            public char  getNumero(){           
-           return  this.Numero;       
+           return  this.numero;       
     } 
             
    
-      public  void setBairro (String Bairro){           
-             this.Bairro = Bairro;
+      public  void setBairro (String bairro){           
+             this.bairro = bairro;
     
           
     }  
            public String  getBairro(){           
-           return  this.Bairro; 
+           return  this.bairro; 
       } 
             
    
-      public  void setComplemento (String Complemento){           
-             this.Complemento = Complemento;
+      public  void setComplemento (String complemento){           
+             this.complemento = complemento;
     
           
     }  
            public String  getComplemento(){           
-           return  this.Complemento; 
+           return  this.complemento; 
                  
     } 
             
    
-      public  void setCidade (String Cidade){           
-             this.Cidade = Cidade;
+      public  void setCidade (String cidade){           
+             this.cidade = cidade;
     
           
     }  
            public String  getCidade(){           
-           return  this.Cidade; 
+           return  this.cidade; 
     } 
             
    
-      public  void setEstado (String Estado){           
-             this.Estado = Estado;
+      public  void setEstado (String estado){           
+             this.estado = estado;
     
           
     }  
            public String  getEstadoe(){           
-           return  this.Estado;                     
+           return  this.estado;                     
     } 
             
    
-      public  void setDDD_Telefone (String DDD_Telefone){           
-             this.DDD_Telefone = DDD_Telefone;
+      public  void setDdd_telefone (String ddd_telefone){           
+             this.ddd_telefone = ddd_telefone;
     
           
     }  
            public String  getDDD_Telefone(){           
-           return  this.DDD_Telefone;                     
+           return  this.ddd_telefone;                     
       } 
             
    
-      public  void setDDD_Celular (String DDD_Celular){           
-             this.DDD_Celular = DDD_Celular;
+      public  void setDdd_celular (String ddd_celular){           
+             this.ddd_celular = ddd_celular;
     
           
     }  
-           public String  getDDD_Celular(){           
-           return  this.DDD_Celular;                     
+           public String  getDdd_celular(){           
+           return  this.ddd_celular;                     
                                
            
       }
-}
+
+   
+    }
+    
+package atividades;
+
+/**
+ *
+ * @author pedro
+ */
+public class Teste {
+public static void main(String[] args){ 
+
+    Classe_private_Cliente c = new Classe_private_Cliente();
+     
+
+    c.setCpf(158.324.354-28);
+    c.setE_mail(gabriel@gmail.com);
+    c.setConfirmar1(gabriel@gmail.com);
+    c.setSenha(batata);
+    c.setConfirmar2(batata);
+    c.setNome(Gabriel);
+    c.setSobrenome(Santos);
+    c.setNascimento(1965/05/04);
+    c.setRg(541.482.48.4);
+    c.setSexo(m);
+    c.setCep(12484664);
+    c.setEndereço(rua esmenia);
+    c.setNumero(245);
+    c.setBairro(por do sol);
+    c.setComplemento(perto de escola);
+    c.setCidade(são josé dos Campos);
+    c.setEstado(Sp);
+    c.setDdd_telefone(12 954248566);
+    c.setDdd_celular(1286445517);
+
+     
+    System.out.println(p.getCpf));
+    System.out.println(p.getE_mail());
+    System.out.println(p.getConfirmar1());
+    System.out.println(p.getSenha());
+    System.out.println(p.getConfirmar2());
+    System.out.println(p.getNome());
+    System.out.println(p.getSobrenome());
+    System.out.println(p.getNascimento());
+    System.out.println(p.getRg());
+    System.out.println(p.getSexo());
+    System.out.println(p.getCep());
+    System.out.println(p.getEndereço());
+    System.out.println(p.getNumero());
+    System.out.println(p.getBairro());
+    System.out.println(p.getComplemento());
+    System.out.println(p.getCidade());
+    System.out.println(p.getEstado());
+    System.out.println(p.getDdd_telefone());
+    System.out.println(p.getDdd_celular());
+
+    }
+ }
+
