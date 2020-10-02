@@ -3,7 +3,6 @@
 Pedro Rodrigues Santos Valle 
 Matrícula:01810422
 
-
 package atividades;
 
 /**
@@ -15,16 +14,16 @@ public class Classe_private_Cliente {
      private String cpf;
      private String e_mail;
      private String confirmar1;
-     private float senha;
+     private String senha;
      private String confirmar2;
      private String nome;
      private String sobrenome;
-     private char nascimento;
-     private char rg;
+     private String nascimento;
+     private String rg;
      private String sexo;        
-     private char cep;
-     private String endereço;
-     private char numero;       
+     private String cep;
+     private String endereco;
+     private int numero;       
      private String bairro;
      private String complemento;
      private String cidade; 
@@ -64,12 +63,12 @@ public class Classe_private_Cliente {
     } 
             
      
-      public  void setsenha(float senha){           
+      public  void setsenha(String senha){           
             this.senha = senha;
     
              
     }  
-           public  float  getSenha(){           
+           public  String  getSenha(){           
            return  this.senha;      
            
       } 
@@ -105,22 +104,22 @@ public class Classe_private_Cliente {
      } 
             
      
-      public  void setNascimento(char nascimento){           
+      public  void setNascimento(String nascimento){           
              this.nascimento = nascimento;
     
              
     }  
-           public char  getNascimento(){           
+           public String  getNascimento(){           
            return  this.nascimento;        
       } 
             
      
-      public  void setRg(char rg){           
+      public  void setRg(String rg){           
              this.rg = rg;
     
           
     }  
-           public char  getRg(){           
+           public String  getRg(){           
            return  this.rg;        
                 
         } 
@@ -137,34 +136,36 @@ public class Classe_private_Cliente {
      } 
             
    
-      public  void setCep (char cep){           
-             this.cep = cep;
-    
-          
-    }  
-           public char   getCep(){           
+     
+           public String  getCep(){           
            return  this.cep;        
                           
     } 
             
    
-      public  void setCep (String endereço){           
-             this.endereço = endereço;
-    
+      public  void setCep (String cep){           
+             this.cep = cep;
+     } 
+            
+   
+      public  void setEndereco (String endereco){           
+             this.endereco = endereco;
+             
+             
           
     }  
-           public String getEndereço(){           
-           return  this.endereço;       
+           public String getEndereco(){           
+           return  this.endereco;       
  
     } 
             
    
-      public  void setNumero (char numero){           
+      public  void setNumero (int numero){           
              this.numero = numero;
     
           
     }  
-           public char  getNumero(){           
+           public int  getNumero(){           
            return  this.numero;       
     } 
             
@@ -205,7 +206,7 @@ public class Classe_private_Cliente {
     
           
     }  
-           public String  getEstadoe(){           
+           public String  getEstado(){           
            return  this.estado;                     
     } 
             
@@ -233,9 +234,11 @@ public class Classe_private_Cliente {
 
    
     }
--*-*-*-*-*-*-*-*-*-*-*-*    
+    
+
+-*-*-*-*-   
 package atividades;
--*-*-*-*-*-*-*-*-*-*-*-
+
 /**
  *
  * @author pedro
@@ -246,47 +249,46 @@ public static void main(String[] args){
     Classe_private_Cliente c = new Classe_private_Cliente();
      
 
-    c.setCpf(158.324.354-28);
-    c.setE_mail(gabriel@gmail.com);
-    c.setConfirmar1(gabriel@gmail.com);
-    c.setSenha(batata);
-    c.setConfirmar2(batata);
-    c.setNome(Gabriel);
-    c.setSobrenome(Santos);
-    c.setNascimento(1965/05/04);
-    c.setRg(541.482.48.4);
-    c.setSexo(m);
-    c.setCep(12484664);
-    c.setEndereço(rua esmenia);
+    c.setCpf("158.324.354-28");
+    c.setE_mail("gabriel@gmail.com");
+    c.setConfirmar1("gabriel@gmail.com");
+    c.setsenha("259623326");
+    c.setConfirmar2("batata");
+    c.setNome("Gabriel");
+    c.setSobrenome("Santos");
+    c.setNascimento("1965/05/04");
+    c.setRg("541.482.48.4");
+    c.setSexo("m");
+    c.setCep("12484664");
+    c.setEndereco("rua esmenia");
     c.setNumero(245);
-    c.setBairro(por do sol);
-    c.setComplemento(perto de escola);
-    c.setCidade(são josé dos Campos);
-    c.setEstado(Sp);
-    c.setDdd_telefone(12 954248566);
-    c.setDdd_celular(1286445517);
+    c.setBairro("por do sol");
+    c.setComplemento("perto de escola");
+    c.setCidade("sÃ£o josÃ© dos Campos");
+    c.setEstado("Sp");
+    c.setDdd_telefone("12 954248566");
+    c.setDdd_celular("1286445517");
 
      
-    System.out.println(p.getCpf));
-    System.out.println(p.getE_mail());
-    System.out.println(p.getConfirmar1());
-    System.out.println(p.getSenha());
-    System.out.println(p.getConfirmar2());
-    System.out.println(p.getNome());
-    System.out.println(p.getSobrenome());
-    System.out.println(p.getNascimento());
-    System.out.println(p.getRg());
-    System.out.println(p.getSexo());
-    System.out.println(p.getCep());
-    System.out.println(p.getEndereço());
-    System.out.println(p.getNumero());
-    System.out.println(p.getBairro());
-    System.out.println(p.getComplemento());
-    System.out.println(p.getCidade());
-    System.out.println(p.getEstado());
-    System.out.println(p.getDdd_telefone());
-    System.out.println(p.getDdd_celular());
+    System.out.println(c.getCpf());
+    System.out.println(c.getE_mail());
+    System.out.println(c.getConfirmar1());
+    System.out.println(c.getSenha());
+    System.out.println(c.getConfirmar2());
+    System.out.println(c.getNome());
+    System.out.println(c.getSobrenome());
+    System.out.println(c.getNascimento());
+    System.out.println(c.getRg());
+    System.out.println(c.getSexo());
+    System.out.println(c.getCep());
+    System.out.println(c.getEndereco());
+    System.out.println(c.getNumero());
+    System.out.println(c.getBairro());
+    System.out.println(c.getComplemento());
+    System.out.println(c.getCidade());
+    System.out.println(c.getEstado());
+    System.out.println(c.getDDD_Telefone());
+    System.out.println(c.getDdd_celular());
 
     }
  }
-
