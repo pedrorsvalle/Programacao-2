@@ -1,0 +1,186 @@
+package herancajava;
+
+/**
+ * @author pedro
+ */
+
+public class Pessoa {
+
+     private String nome;
+     private String endereco;
+     private String cidade;  
+     private String cep;
+     private int estado;
+     private int telefone;
+     
+    Pessoa( String nome, String endereco, String cidade, String cep, int estado, int telefone){
+       this.nome = nome;
+       this.endereco = endereco;
+       this.cidade = cidade;
+       this.cep = cep;
+       this.estado = estado;
+       this.telefone = telefone;
+        
+    }    
+    
+   public String getNome() {
+        return nome;
+    }
+
+    
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+   
+    public String getEndereco() {
+        return endereco;
+    }
+
+    
+    public void setEndereco(String endereco) {
+        this.endereco = endereco;
+    }
+
+    
+    public String getCidade() {
+        return cidade;
+    }
+
+    
+    public void setCidade(String cidade) {
+        this.cidade = cidade;
+    }
+
+    
+    public String getCep() {
+        return cep;
+    }
+
+   
+    public void setCep(String cep) {
+        this.cep = cep;
+    }
+
+    
+    public int getEstado() {
+        return estado;
+    }
+
+    
+    public void setEstado(int estado) {
+        this.estado = estado;
+    }
+
+    
+    public int getTelefone() {
+        return telefone;
+    }
+
+    
+    public void setTelefone(int telefone) {
+        this.telefone = telefone;
+    } 
+   
+}
+
+
+
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+
+package herancajava;
+
+/**
+  * @author pedro
+ */
+public class PessoaFisica{
+    
+    private String cpf; 
+   
+    
+       public String getCpf() {
+        return cpf;
+    }
+
+   
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }
+    
+    
+}
+
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+
+package herancajava;
+
+/**
+ * @author pedro
+ */
+public class Pessoajuridica {
+
+  
+    private String cnpj; 
+    
+          
+    public String getCnpj() {
+        return cnpj;
+    }
+
+    
+    public void setCnpj(String cnpj) {
+        this.cnpj = cnpj;
+    }
+    
+   
+}
+
+
+
+
+package herancajava;
+
+/**
+ * @author pedro
+ */
+public class Pessoajuridica {
+
+  
+    private String cnpj; 
+    
+          
+    public String getCnpj() {
+        return cnpj;
+    }
+
+    
+    public void setCnpj(String cnpj) {
+        this.cnpj = cnpj;
+    }
+    
+   
+}
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+
+
+package herancajava;
+
+/**
+ * @author pedro
+ */
+
+public class Teste {
+    
+    public static void main (String[] args){
+      pessoa p = new  pessoa();
+       p.nome ="pedro";
+       p.endereco= "Avenida São joão ";
+       p.cidade = "São joé dos Campos";
+       p.cep="12488925";
+       p.estado = "SP";
+       p.telefone =1298858884;
+}
+}
