@@ -88,28 +88,29 @@ public class Pessoa {
 
 
 *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
-
 package herancajava;
 
 /**
   * @author pedro
  */
-public class PessoaFisica{
-    
-    private String cpf; 
-   
-    
-       public String getCpf() {
+
+public class PessoaFisica extends Pessoa {
+    private String cpf;
+
+    public PessoaFisica(String nome, String endereco, String cidade, String cep, int estado, int telefone, String cpf) {
+        super(nome, endereco, cidade, cep, estado, telefone);
+        this.cpf = cpf;
+    }
+
+    public String getCpf() {
         return cpf;
     }
 
-   
     public void setCpf(String cpf) {
         this.cpf = cpf;
     }
-    
-    
 }
+
 
 
 *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
@@ -119,68 +120,147 @@ package herancajava;
 /**
  * @author pedro
  */
+
 public class Pessoajuridica {
 
-  
-    private String cnpj; 
-    
-          
+    public class PessoaJuridica extends Pessoa {
+    private String cnpj;
+
+    public PessoaJuridica(String nome, String endereco, String cidade, String cep, int estado, int telefone,
+                          String cnpj) {
+        super(nome, endereco, cidade, cep, estado, telefone);
+        this.cnpj = cnpj;
+    }
+
     public String getCnpj() {
         return cnpj;
     }
 
-    
     public void setCnpj(String cnpj) {
         this.cnpj = cnpj;
     }
-    
-   
 }
-
-
-
-
-package herancajava;
-
-/**
- * @author pedro
- */
-public class Pessoajuridica {
-
-  
-    private String cnpj; 
     
-          
-    public String getCnpj() {
-        return cnpj;
-    }
-
-    
-    public void setCnpj(String cnpj) {
-        this.cnpj = cnpj;
-    }
-    
-   
 }
-
+    
+    
 *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 
-
 package herancajava;
 
+import java.time.LocalDate;
 /**
+ *
  * @author pedro
  */
 
-public class Teste {
+public class Aluno extends Pessoa {
+    private long matricula;
+    private LocalDate dataNascimento;
+    private boolean bolsista;
+
+    public Aluno(String nome, String endereco, String cidade, String cep, int estado, int telefone, long matricula,
+                 LocalDate dataNascimento, boolean bolsista) {
+        super(nome, endereco, cidade, cep, estado, telefone);
+        this.matricula = matricula;
+        this.dataNascimento = dataNascimento;
+        this.bolsista = bolsista;
+    }
+
+    public long getMatricula() {
+        return matricula;
+    }
+
+    public void setMatricula(long matricula) {
+        this.matricula = matricula;
+    }
+
+    public LocalDate getDataNascimento() {
+        return dataNascimento;
+    }
+
+    public void setDataNascimento(LocalDate dataNascimento) {
+        this.dataNascimento = dataNascimento;
+    }
+
+    public boolean isBolsista() {
+        return bolsista;
+    }
+
+    public void setBolsista(boolean bolsista) {
+        this.bolsista = bolsista;
+    }
+}
+
+
     
-    public static void main (String[] args){
-      pessoa p = new  pessoa();
-       p.nome ="pedro";
-       p.endereco= "Avenida São joão ";
-       p.cidade = "São joé dos Campos";
-       p.cep="12488925";
-       p.estado = "SP";
-       p.telefone =1298858884;
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+
+package herancajava;
+
+import java.math.BigDecimal;
+import java.time.LocalDate;
+
+/**
+ *
+ * @author pedro
+ */
+
+public class Funcionario extends Pessoa {
+    private LocalDate dataContratacao;
+    private BigDecimal salario;
+
+    public Funcionario(String nome, String endereco, String cidade, String cep, int estado, int telefone,
+                       LocalDate dataContratacao, BigDecimal salario) {
+        super(nome, endereco, cidade, cep, estado, telefone);
+        this.dataContratacao = dataContratacao;
+        this.salario = salario;
+    }
+
+    public LocalDate getDataContratacao() {
+        return dataContratacao;
+    }
+
+    public void setDataContratacao(LocalDate dataContratacao) {
+        this.dataContratacao = dataContratacao;
+    }
+
+    public BigDecimal getSalario() {
+        return salario;
+    }
+
+    public void setSalario(BigDecimal salario) {
+        this.salario = salario;
+    }
 }
+
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+package herancajava;
+
+import java.math.BigDecimal;
+import java.time.LocalDate;
+import java.util.List;
+/**
+ *
+ * @author pedro
+ */
+  
+public class Professor extends Funcionario {
+    private List<String> disciplinas;
+
+    public Professor(String nome, String endereco, String cidade, String cep, int estado, int telefone,
+                     LocalDate dataContratacao, BigDecimal salario, List<String> disciplinas) {
+        super(nome, endereco, cidade, cep, estado, telefone, dataContratacao, salario);
+        this.disciplinas = disciplinas;
+    }
+
+    public List<String> getDisciplinas() {
+        return disciplinas;
+    }
+
+    public void setDisciplinas(List<String> disciplinas) {
+        this.disciplinas = disciplinas;
+    }
 }
+
