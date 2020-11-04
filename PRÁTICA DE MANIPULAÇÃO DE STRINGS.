@@ -1,0 +1,233 @@
+                                                                
+ PEDRO RODRIGUES SANTOS VALLE - 01810422
+ 
+                                                                
+                                                                CONTARLETRAS                          
+                                    
+ /*
+ ContarLetras 
+ */
+
+package Scaner;
+import java.util.Scanner;
+/**
+ *
+ * @author pedro
+ */
+class ContarLetras {
+	public boolean isLetter(char ch){
+            return (ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z');
+	}
+	public boolean isSpace(char ch){
+            return ch == ' ';
+	}
+	public static void main(String[] args){
+		ContarLetras  strInfo = new ContarLetras ();
+		
+		String text = "O rato roeu a roupa"
+		+ " do rei de Roma."
+		+ " O rei perdeu a roupa.";
+		
+		int spaces = 0,
+			others = 0,
+			letters = 0;
+		
+		for(int i = 0; i < text.length(); i++){
+			if(strInfo.isLetter(text.charAt(i)))
+				letters++;
+			else if(strInfo.isSpace(text.charAt(i)))
+				spaces++;
+			else
+				others++;
+		}
+		
+		System.out.println("Letters: " + letters);
+	}
+}
+    
+
+
+/*
+System.out.println("Letters: " + letters + ", Spaces: " + spaces + ", Others: " + others);
+*/
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------
+                                                          QUANTAS VOGAIS 
+
+package Scaner;
+
+/*
+quantas vogais 
+*/
+/**
+ *
+ * @author pedro
+ */
+public class Vogais {
+    
+public boolean isVowel(char ch){  
+		ch = Character.toLowerCase(ch);
+		if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')  
+			return true;  
+		else  
+			return false;  
+	}  
+	public static void main(String[] args){  
+		Vogais strInfo = new Vogais();  
+
+		String text = "O rato roeu a roupa"
+		+ "do rei de Roma."
+		+ "O rei perdeu a roupa.";
+
+		int spaces = 0,  
+		others = 0,  
+		vowels = 0,
+		letters = 0;
+
+		for(int i = 0; i < text.length(); i++){ 
+			if(strInfo.isVowel(text.charAt(i)))  
+				vowels++;  
+			if(Character.isLetter(text.charAt(i)))
+				letters++;
+			else if(text.charAt(i) == ' ')  
+				spaces++;  
+			else  
+				others++;  
+		}  
+
+		System.out.println("Total: " + text.length() + 
+                
+                 ", Vowels: " + vowels); 
+                
+	}  
+} 
+
+
+/*
+System.out.println("Total: " + text.length() + 
+                ", Letters: " + letters + 
+                ", Consonants: " + (letters - vowels) + 
+                ", Vowels: " + vowels + 
+                ", Spaces: " + spaces + 
+                ", Others: " + others);  
+	}  
+}  
+	*/
+
+
+-----------------------------------------------------------------------------------------------------
+                                                                      
+                                                            CONSOANTE 
+package Scaner;
+
+/**
+ *
+ * @author pedro
+ */
+public class Consoante {
+    
+public boolean isVowel(char ch){  
+		ch = Character.toLowerCase(ch);
+		if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')  
+			return true;  
+		else  
+			return false;  
+	}  
+	public static void main(String[] args){  
+		Consoante  strInfo = new Consoante ();  
+
+		String text = "O rato roeu a roupa"
+		+ "do rei de Roma."
+		+ "O rei perdeu a roupa.";
+
+		int spaces = 0,  
+		others = 0,  
+		vowels = 0,
+		letters = 0;
+
+		for(int i = 0; i < text.length(); i++){ 
+			if(strInfo.isVowel(text.charAt(i)))  
+				vowels++;  
+			if(Character.isLetter(text.charAt(i)))
+				letters++;
+			else if(text.charAt(i) == ' ')  
+				spaces++;  
+			else  
+				others++;  
+		}  
+
+		System.out.println(" Consonants: " + (letters - vowels));
+               
+	                        
+         }  
+} 
+
+
+-----------------------------------------------------------------------------------------------------
+
+                                                            CONTARPALAVRAS
+/*
+ContarPalavras (e)
+*/
+package Scaner;
+import java.util.Scanner;
+/**
+ *
+ * @author pedro
+ */
+public class ContarPalavras {
+    
+    public static void main(String[] args){  
+		 
+                
+  Scanner s = new Scanner(System.in); 
+System.out.print("digite uma frase: ");
+String frase = s.nextLine();
+//pega a quantidade de espaços em branco
+int var = frase.split(" ", -1).length - 1;
+System.out.println((var+1) + " palavras");   
+
+}
+}
+
+-----------------------------------------------------------------------------------------------------
+                                                               CONTARFRASE
+
+package Scaner;
+
+/**
+ *
+ * @author pedro
+ */
+/*
+Contar frase: Virgula ou ponto 
+*/
+public class ContarFrase {
+
+public static void main(String[] args) {
+	String x = "O rato roeu a roupa do rei de Roma, porque ele estava com fome...";  
+		 
+		         int total=0;  
+	   
+		        for(int i=0; i<x.length();i++){  
+	             char ch = x.charAt(i);  
+		            String x1 = String.valueOf(ch); 
+                           		              
+	            if(x1.equalsIgnoreCase(".") || (x1.equalsIgnoreCase(","))){
+                        total++;
+                     }
+                     
+                        }
+                                
+                       	   	   		             
+		       	   
+	         System.out.println(total);  
+	}
+}
+    
+-----------------------------------------------------------------------------------------------------
