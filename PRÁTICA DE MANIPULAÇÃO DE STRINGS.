@@ -3,7 +3,8 @@
  
                                                                 
                                                                 CONTARLETRAS                          
-                                    
+ A)
+ 
  /*
  ContarLetras 
  */
@@ -57,7 +58,7 @@ System.out.println("Letters: " + letters + ", Spaces: " + spaces + ", Others: " 
 
 
 -----------------------------------------------------------------------------------------------------
-                                                          QUANTAS VOGAIS 
+ B)                                                         QUANTAS VOGAIS 
 
 package Scaner;
 
@@ -123,6 +124,8 @@ System.out.println("Total: " + text.length() +
 -----------------------------------------------------------------------------------------------------
                                                                       
                                                             CONSOANTE 
+C)
+
 package Scaner;
 
 /**
@@ -171,6 +174,8 @@ public boolean isVowel(char ch){
 -----------------------------------------------------------------------------------------------------
 
                                                             CONTARPALAVRAS
+E)
+
 /*
 ContarPalavras (e)
 */
@@ -197,6 +202,8 @@ System.out.println((var+1) + " palavras");
 
 -----------------------------------------------------------------------------------------------------
                                                                CONTARFRASE
+
+D)
 
 package Scaner;
 
