@@ -1,0 +1,196 @@
+
+                    Pedro Rodrigues Santos Valle - 01810422 
+
+package Javaswing;
+
+import java.awt.Color;
+import java.awt.Container;
+import java.text.ParseException;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+import javax.swing.JComboBox;
+import javax.swing.JFormattedTextField;
+import javax.swing.text.MaskFormatter;
+
+public class Formulario1 extends JFrame {
+    private Container ctnFormulario1;
+    private JLabel lblCpf;
+    private JFormattedTextField txtCpf;
+    private JLabel lblFormaTratamento;
+    private JTextField txtFormaTratamento;
+    private JLabel lblNome;
+    private JTextField txtNome;
+    private JLabel lblIdentidade;
+    private JTextField txtIdentidade;
+    private JLabel lblOrgExpeditor;
+    private JFormattedTextField txtOrgExpeditor;
+    private final String[] genero = {"Masculino", "Feminino", "Outros"};
+    private JLabel lblSexo;
+    private JComboBox cmbSexo;
+    private JLabel lblDataNasc;
+    private JFormattedTextField txtDataNasc;
+    private JLabel lblCep;
+    private JFormattedTextField txtCep;
+    private JLabel lblComplemento;
+    private JTextField txtComplemento;
+    private JLabel lblLogradouro;
+    private JTextField txtLogradouro;
+    private JLabel lblBairro;
+    private JTextField txtBairro;
+    private JLabel lblTelefones;
+    private JFormattedTextField txtTelefone1;
+    private JFormattedTextField txtTelefone2;
+    private JLabel lblWebsite;
+    private JTextField txtWebsite;
+    private JLabel lblEmail;
+    private JTextField txtEmail;
+    private JLabel lblCnarh;
+    private JTextField txtCnarh;
+
+    public Formulario1(){
+        setSize(475,610);
+        setTitle("Formulario");
+        ctnFormulario1 = getContentPane();
+        ctnFormulario1.setLayout(null);
+        lblCpf = new JLabel("CPF:");
+        try{
+            MaskFormatter FormateCpf = new MaskFormatter("###.###.###-##");
+            txtCpf = new JFormattedTextField(FormateCpf);
+        } catch (ParseException e){
+            e.printStackTrace();
+        }
+        lblCpf.setBounds(10,10,100,25);
+        txtCpf.setBounds(10,35,200,25);
+        ctnFormulario1.add(lblCpf);
+        ctnFormulario1.add(txtCpf);
+       
+        lblFormaTratamento = new JLabel("FORMA DE TRATAMENTO:");
+        txtFormaTratamento = new JTextField();
+        lblFormaTratamento.setBounds(10,60,150,25);
+        txtFormaTratamento.setBounds(10,85,200,25);
+        ctnFormulario1.add(lblFormaTratamento);
+        ctnFormulario1.add(txtFormaTratamento);
+        
+        lblNome = new JLabel("NOME:");
+        txtNome = new JTextField();
+        lblNome.setBounds(10,110,100,25);
+        txtNome.setBounds(10,135,200,25);
+        ctnFormulario1.add(lblNome);
+        ctnFormulario1.add(txtNome);
+        
+        lblIdentidade = new JLabel("IDENTIDADE:");
+        txtIdentidade = new JTextField();
+        lblIdentidade.setBounds(10,160,100,25);
+        txtIdentidade.setBounds(10,185,200,25);
+        ctnFormulario1.add(lblIdentidade);
+        ctnFormulario1.add(txtIdentidade); 
+        lblOrgExpeditor = new JLabel("ÓRGÃO EXPEDITOR:");
+        try{
+            MaskFormatter FormateOrgExpeditor = new MaskFormatter("UUU/UU");
+            txtOrgExpeditor = new JFormattedTextField(FormateOrgExpeditor);
+        } catch (ParseException e){
+            e.printStackTrace();
+        }
+        lblOrgExpeditor.setBounds(250,210,150,25);
+        txtOrgExpeditor.setBounds(250,235,200,25);
+        ctnFormulario1.add(lblOrgExpeditor);
+        ctnFormulario1.add(txtOrgExpeditor);
+        
+        lblSexo = new JLabel("SEXO:");
+        cmbSexo = new JComboBox(genero);
+        lblSexo.setBounds(10,210,100,25);
+        cmbSexo.setBounds(10,235,200,25);
+        ctnFormulario1.add(lblSexo);
+        ctnFormulario1.add(cmbSexo);
+        
+        lblDataNasc = new JLabel("DATANASC:");
+        try{
+            MaskFormatter FormateDataNasc = new MaskFormatter("##/##/####");
+            txtDataNasc = new JFormattedTextField(FormateDataNasc);
+        } catch (ParseException e){
+            e.printStackTrace();
+        }
+        lblDataNasc.setBounds(10,260,100,25);
+        txtDataNasc.setBounds(10,285,200,25);
+        ctnFormulario1.add(lblDataNasc);
+        ctnFormulario1.add(txtDataNasc);
+        
+        lblCep = new JLabel("CEP:");
+        try{
+            MaskFormatter FormateCep = new MaskFormatter("#####-###");
+            txtCep = new JFormattedTextField(FormateCep);
+        } catch (ParseException e){
+            e.printStackTrace();
+        }
+        lblCep.setBounds(11,310,100,25);
+        txtCep.setBounds(11,335,200,25);
+        ctnFormulario1.add(lblCep);
+        ctnFormulario1.add(txtCep);
+        lblComplemento = new JLabel("COMPLEMENTO:");
+        txtComplemento = new JTextField();
+        lblComplemento.setBounds(250,310,100,25);
+        txtComplemento.setBounds(250,335,200,25);
+        ctnFormulario1.add(lblComplemento);
+        ctnFormulario1.add(txtComplemento);
+       
+        lblLogradouro = new JLabel("LOGRADOURO:");
+        txtLogradouro = new JTextField();
+        lblLogradouro.setBounds(11,360,100,25);
+        txtLogradouro.setBounds(11,385,200,25);
+        ctnFormulario1.add(lblLogradouro);
+        ctnFormulario1.add(txtLogradouro);
+        lblBairro = new JLabel("BAIRRO:");
+        txtBairro = new JTextField();
+        lblBairro.setBounds(250,360,100,25);
+        txtBairro.setBounds(250,385,200,25);
+        ctnFormulario1.add(lblBairro);
+        ctnFormulario1.add(txtBairro);
+        
+        lblTelefones = new JLabel("TELEFONE/FAX:");
+        try{
+            MaskFormatter FormateTelefone1 = new MaskFormatter("(##) ####-####");
+            txtTelefone1 = new JFormattedTextField(FormateTelefone1);
+        } catch (ParseException e){
+            e.printStackTrace();
+        }
+        lblTelefones.setBounds(10,410,100,25);
+        txtTelefone1.setBounds(10,435,200,25);
+        ctnFormulario1.add(lblTelefones);
+        ctnFormulario1.add(txtTelefone1);
+        try{
+            MaskFormatter FormateTelefone2 = new MaskFormatter("(##) ####-####");
+            txtTelefone2 = new JFormattedTextField(FormateTelefone2);
+        } catch (ParseException e){
+            e.printStackTrace();
+        }
+        txtTelefone2.setBounds(250,435,200,25);
+        ctnFormulario1.add(txtTelefone2);
+       
+        lblWebsite = new JLabel("WEBSITE:");
+        txtWebsite = new JTextField();
+        lblWebsite.setBounds(11,460,100,25);
+        txtWebsite.setBounds(11,485,200,25);
+        ctnFormulario1.add(lblWebsite);
+        ctnFormulario1.add(txtWebsite);
+        lblEmail = new JLabel("EMAIL:");
+        txtEmail = new JTextField();
+        lblEmail.setBounds(250,460,100,25);
+        txtEmail.setBounds(250,485,200,25);
+        ctnFormulario1.add(lblEmail);
+        ctnFormulario1.add(txtEmail);
+        
+        lblCnarh = new JLabel("CNARH:");
+        txtCnarh = new JTextField();
+        lblCnarh.setBounds(11,510,100,25);
+        txtCnarh.setBounds(11,535,200,25);
+        ctnFormulario1.add(lblCnarh);
+        ctnFormulario1.add(txtCnarh);
+        setVisible(true);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    }
+    public static void main(String[] args) {
+        Formulario1 telaInicial =  new Formulario1();
+    }
+}
