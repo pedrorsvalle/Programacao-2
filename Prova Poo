@@ -1,0 +1,1506 @@
+/*
+Exercício - 1 
+Prova 
+*/
+package prova2;
+
+import java.awt.FlowLayout;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+
+
+/**
+ *
+ * @author pedro
+ */
+
+  public class Janela02  extends JFrame {
+       
+       
+    
+  
+       
+       
+    private JLabel iblNIPPONFLEX;
+    private JTextField txtNIPPONFLEX;
+    private JLabel iblDados_Pessoais;
+    private JTextField txtDados_Pessoais;
+    private JLabel iblEUMFLEX;
+    private JTextField txtEUMFLEX;
+    private JLabel iblNome;
+    private JTextField txtNome;
+    private JLabel iblData_de_Nacimento;
+    private JTextField txtData_de_Nacimento;
+    private JLabel iblCpf;
+    private JTextField txtCpf;
+    private JLabel iblNacionalidade;
+    private JTextField txtNaliconalidade;
+    private JLabel iblRg;
+    private JTextField txtRg;
+    private JLabel iblData_De_Emissão;
+    private JTextField txtData_De_Emissão;
+    private JLabel iblOrgão_Emissor;
+    private JTextField txtOrgão_Emissor;
+    private JLabel iblUF;
+    private JTextField txtUF;
+    private JLabel iblPaís_Documento;
+    private JTextField txtPaís_Documento;
+    private JLabel iblnaturalidade;
+    private JTextField txtnaturalidade;
+    private JLabel ibluf;
+    private JTextField txtuf;
+    private JLabel iblNome_da_mae;
+    private JTextField txtNome_da_mae;
+    private JLabel iblFone_Res;
+    private JTextField txtFone_Res;
+    private JLabel iblNome_do_Pai;
+    private JTextField txtNome_Pai;
+    private JLabel iblCel;
+    private JTextField txtCel;
+    private JLabel iblEndereco;
+    private JTextField txtEndereco;
+    private JLabel ibl_numero;
+    private JTextField txt_numero;
+    private JLabel iblComplemento;
+    private JTextField txtComplemento;
+    private JLabel iblBairro;
+    private JTextField txtBairro;
+    private JLabel iblCidade;
+    private JTextField txtCidade;
+    private JLabel iblCEP;
+    private JTextField txtCEP;
+    private JLabel iblUf;
+    private JTextField txtUf;
+    private JLabel iblTempo_de_residencia;
+    private JTextField txtTempo_de_residencia;
+    private JLabel iblValor_do_Patrimonio;
+    private JTextField txtValor_do_Patrimonio;
+    private JLabel iblTipo_de_residencia;
+    private JTextField txtTipo_de_residencia; 
+    private JLabel iblPropria;
+    private JTextField txtPropria;   
+    private JLabel iblAlugada;
+    private JTextField txtAlugada;  
+    private JLabel iblCom_Parentes;
+    private JTextField txtCom_Parentes;   
+    private JLabel iblFuncional;
+    private JTextField txtFuncional;    
+    private JLabel iblDadosProfissionais;
+    private JTextField txtDadosProfissionais;   
+    private JLabel iblNome_Da_Empresa;
+    private JTextField txtNome_Da_Empresa;    
+    private JLabel iblCNPJ;
+    private JTextField txtCNPJ;    
+    private JLabel iblEndereço_Comercial;
+    private JTextField txtEndereço_Comercial;      
+    private JLabel iblNumero;
+    private JTextField txtNumero;    
+    private JLabel iblcomplemento;
+    private JTextField txtcomplemento;    
+    private JLabel iblbairro;
+    private JTextField txtbairro;    
+    private JLabel iblcidade;
+    private JTextField txtcidade;    
+    private JLabel iblCep;
+    private JTextField txtCep;    
+    private JLabel ibluF;
+    private JTextField txtuF;    
+    private JLabel iblTelefone;
+    private JTextField txtTelefone;    
+    private JLabel iblData_admissao;
+    private JTextField txtData_admissao;    
+    private JLabel iblFuncao;
+    private JTextField txtFuncao;    
+    private JLabel iblRenda_Mensal;
+    private JTextField txtRenda_Mensal;        
+    private JLabel iblOutras_rendas;
+    private JTextField txtOutras_rendas;   
+    private JLabel iblTipo_de_renda;
+    private JTextField txtTipo_de_renda;    
+    private JLabel iblTipo_de_compre_de_renda;
+    private JTextField txtTipo_de_compre_de_renda;      
+    private JLabel iblHolerite;
+    private JTextField txtHolerite;        
+    private JLabel iblExtrato_Bancario;
+    private JTextField txtExtrato_Bancario;    
+    private JLabel iblOutos;
+    private JTextField txtOutos;        
+    private JLabel iblPatrimonio;
+    private JTextField txtPatrimonio;       
+    private JLabel iblNATUREZA_DA_OPERAÇÃO;
+    private JTextField txtNATUREZA_DA_OPERAÇÃO;
+    
+   
+        
+    
+    public JLabel getIblNIPPONFLEX() {
+        return iblNIPPONFLEX;
+    }
+
+    
+    public void setIblNIPPONFLEX(JLabel iblNIPPONFLEX) {
+        this.iblNIPPONFLEX = iblNIPPONFLEX;
+    }
+
+   
+    public JTextField getTxtNIPPONFLEX() {
+        return txtNIPPONFLEX;
+    }
+
+    
+    public void setTxtNIPPONFLEX(JTextField txtNIPPONFLEX) {
+        this.txtNIPPONFLEX = txtNIPPONFLEX;
+    }
+
+   
+    public JLabel getIblDados_Pessoais() {
+        return iblDados_Pessoais;
+    }
+
+   
+    public void setIblDados_Pessoais(JLabel iblDados_Pessoais) {
+        this.iblDados_Pessoais = iblDados_Pessoais;
+    }
+
+   
+    public JTextField getTxtDados_Pessoais() {
+        return txtDados_Pessoais;
+    }
+
+   
+    public void setTxtDados_Pessoais(JTextField txtDados_Pessoais) {
+        this.txtDados_Pessoais = txtDados_Pessoais;
+    }
+
+    
+    public JLabel getIblEUMFLEX() {
+        return iblEUMFLEX;
+    }
+
+   
+    public void setIblEUMFLEX(JLabel iblEUMFLEX) {
+        this.iblEUMFLEX = iblEUMFLEX;
+    }
+
+    
+    public JTextField getTxtEUMFLEX() {
+        return txtEUMFLEX;
+    }
+
+    
+    public void setTxtEUMFLEX(JTextField txtEUMFLEX) {
+        this.txtEUMFLEX = txtEUMFLEX;
+    }
+
+    
+    public JLabel getIblNome() {
+        return iblNome;
+    }
+
+    
+    public void setIblNome(JLabel iblNome) {
+        this.iblNome = iblNome;
+    }
+
+    
+    public JTextField getTxtNome() {
+        return txtNome;
+    }
+
+    
+    public void setTxtNome(JTextField txtNome) {
+        this.txtNome = txtNome;
+    }
+
+   
+    public JLabel getIblData_de_Nacimento() {
+        return iblData_de_Nacimento;
+    }
+
+    
+    public void setIblData_de_Nacimento(JLabel iblData_de_Nacimento) {
+        this.iblData_de_Nacimento = iblData_de_Nacimento;
+    }
+
+    
+    public JTextField getTxtData_de_Nacimento() {
+        return txtData_de_Nacimento;
+    }
+
+    
+    public void setTxtData_de_Nacimento(JTextField txtData_de_Nacimento) {
+        this.txtData_de_Nacimento = txtData_de_Nacimento;
+    }
+
+    
+    public JLabel getIblCpf() {
+        return iblCpf;
+    }
+
+    
+    public void setIblCpf(JLabel iblCpf) {
+        this.iblCpf = iblCpf;
+    }
+
+    
+    public JTextField getTxtCpf() {
+        return txtCpf;
+    }
+
+    
+    public void setTxtCpf(JTextField txtCpf) {
+        this.txtCpf = txtCpf;
+    }
+
+    
+    public JLabel getIblNacionalidade() {
+        return iblNacionalidade;
+    }
+
+    
+    public void setIblNacionalidade(JLabel iblNacionalidade) {
+        this.iblNacionalidade = iblNacionalidade;
+    }
+
+    public JTextField getTxtNaliconalidade() {
+        return txtNaliconalidade;
+    }
+
+    
+    public void setTxtNaliconalidade(JTextField txtNaliconalidade) {
+        this.txtNaliconalidade = txtNaliconalidade;
+    }
+
+    
+    public JLabel getIblRg() {
+        return iblRg;
+    }
+
+    public void setIblRg(JLabel iblRg) {
+        this.iblRg = iblRg;
+    }
+
+    
+    public JTextField getTxtRg() {
+        return txtRg;
+    }
+
+    
+    public void setTxtRg(JTextField txtRg) {
+        this.txtRg = txtRg;
+    }
+
+   
+    public JLabel getIblData_De_Emissão() {
+        return iblData_De_Emissão;
+    }
+
+   
+    public void setIblData_De_Emissão(JLabel iblData_De_Emissão) {
+        this.iblData_De_Emissão = iblData_De_Emissão;
+    }
+
+    
+    public JTextField getTxtData_De_Emissão() {
+        return txtData_De_Emissão;
+    }
+
+    
+    public void setTxtData_De_Emissão(JTextField txtData_De_Emissão) {
+        this.txtData_De_Emissão = txtData_De_Emissão;
+    }
+
+  
+    public JLabel getIblOrgão_Emissor() {
+        return iblOrgão_Emissor;
+    }
+
+    
+    public void setIblOrgão_Emissor(JLabel iblOrgão_Emissor) {
+        this.iblOrgão_Emissor = iblOrgão_Emissor;
+    }
+
+    
+    public JTextField getTxtOrgão_Emissor() {
+        return txtOrgão_Emissor;
+    }
+
+    
+    public void setTxtOrgão_Emissor(JTextField txtOrgão_Emissor) {
+        this.txtOrgão_Emissor = txtOrgão_Emissor;
+    }
+
+   
+    public JLabel getIblUF() {
+        return iblUF;
+    }
+
+    
+    public void setIblUF(JLabel iblUF) {
+        this.iblUF = iblUF;
+    }
+
+    
+    public JTextField getTxtUF() {
+        return txtUF;
+    }
+
+   
+    public void setTxtUF(JTextField txtUF) {
+        this.txtUF = txtUF;
+    }
+
+    
+    public JLabel getIblPaís_Documento() {
+        return iblPaís_Documento;
+    }
+
+    
+    public void setIblPaís_Documento(JLabel iblPaís_Documento) {
+        this.iblPaís_Documento = iblPaís_Documento;
+    }
+
+    
+    public JTextField getTxtPaís_Documento() {
+        return txtPaís_Documento;
+    }
+
+   
+    public void setTxtPaís_Documento(JTextField txtPaís_Documento) {
+        this.txtPaís_Documento = txtPaís_Documento;
+    }
+
+    
+    
+    public JLabel getIblPNaturalidade() {
+        return iblnaturalidade;
+    }
+
+   
+    public void setIblNaturalidade(JLabel iblNaturalidade) {
+        this.iblnaturalidade = iblNaturalidade;
+    }
+
+  
+    public JTextField getTxtNaturalidade() { 
+        return txtnaturalidade;
+    }
+
+  
+    public void setTxtNaturalidade(JTextField txtNaturalidade) {
+        this.txtnaturalidade = txtNaturalidade;
+    }
+
+   
+    public JLabel getIbluf() {
+        return ibluf;
+    }
+
+    
+    public void setIbluf(JLabel ibluf) {
+        this.ibluf = ibluf;
+    }
+
+   
+    public JTextField getTxtuf() {
+        return txtuf;
+    }
+
+    
+    public void setTxtuf(JTextField txtuf) {
+        this.txtuf = txtuf;
+    }
+
+    
+    public JLabel getIblNome_da_mae() {
+        return iblNome_da_mae;
+    }
+
+   
+    public void setIblNome_da_mae(JLabel iblNome_da_mae) {
+        this.iblNome_da_mae = iblNome_da_mae;
+    }
+
+    
+    public JTextField getTxtNome_da_mae() {
+        return txtNome_da_mae;
+    }
+
+   
+    public void setTxtNome_da_mae(JTextField txtNome_da_mae) {
+        this.txtNome_da_mae = txtNome_da_mae;
+    }
+
+    public JLabel getIblFone_Res() {
+        return iblFone_Res;
+    }
+
+    
+    public void setIblFone_Res(JLabel iblFone_Res) {
+        this.iblFone_Res = iblFone_Res;
+    }
+
+    public JTextField getTxtFone_Res() {
+        return txtFone_Res;
+    }
+
+    public void setTxtFone_Res(JTextField txtFone_Res) {
+        this.txtFone_Res = txtFone_Res;
+    }
+
+   
+    public JLabel getIblNome_do_Pai() {
+        return iblNome_do_Pai;
+    }
+
+    
+    public void setIblNome_do_Pai(JLabel iblNome_do_Pai) {
+        this.iblNome_do_Pai = iblNome_do_Pai;
+    }
+
+    
+    public JTextField getTxtNome_Pai() {
+        return txtNome_Pai;
+    }
+
+   
+    public void setTxtNome_Pai(JTextField txtNome_Pai) {
+        this.txtNome_Pai = txtNome_Pai;
+    }
+
+   
+    public JLabel getIblCel() {
+        return iblCel;
+    }
+
+    
+    public void setIblCel(JLabel iblCel) {
+        this.iblCel = iblCel;
+    }
+
+    
+    public JTextField getTxtCel() {
+        return txtCel;
+    }
+
+    
+    public void setTxtCel(JTextField txtCel) {
+        this.txtCel = txtCel;
+    }
+
+    
+    public JLabel getIblEndereco() {
+        return iblEndereco;
+    }
+
+    public void setIblEndereco(JLabel iblEndereco) {
+        this.iblEndereco = iblEndereco;
+    }
+
+    
+    public JTextField getTxtEndereco() {
+        return txtEndereco;
+    }
+
+    public void setTxtEndereco(JTextField txtEndereco) {
+        this.txtEndereco = txtEndereco;
+    }
+
+    
+    public JLabel getIbl_numero() {
+        return ibl_numero;
+    }
+
+   
+    public void setIbl_numero(JLabel ibl_numero) {
+        this.ibl_numero = ibl_numero;
+    }
+
+    
+    public JTextField getTxt_numero() {
+        return txt_numero;
+    }
+
+    
+    public void setTxt_numero(JTextField txt_numero) {
+        this.txt_numero = txt_numero;
+    }
+
+   
+    public JLabel getIblComplemento() {
+        return iblComplemento;
+    }
+
+   
+    public void setIblComplemento(JLabel iblComplemento) {
+        this.iblComplemento = iblComplemento;
+    }
+
+    
+    public JTextField getTxtComplemento() {
+        return txtComplemento;
+    }
+
+    
+    public void setTxtComplemento(JTextField txtComplemento) {
+        this.txtComplemento = txtComplemento;
+    }
+
+   
+    public JLabel getIblBairro() {
+        return iblBairro;
+    }
+
+    
+    public void setIblBairro(JLabel iblBairro) {
+        this.iblBairro = iblBairro;
+    }
+
+    
+    public JTextField getTxtBairro() {
+        return txtBairro;
+    }
+
+    
+    public void setTxtBairro(JTextField txtBairro) {
+        this.txtBairro = txtBairro;
+    }
+
+    
+    public JLabel getIblCidade() {
+        return iblCidade;
+    }
+
+    
+    public void setIblCidade(JLabel iblCidade) {
+        this.iblCidade = iblCidade;
+    }
+
+   
+    public JTextField getTxtCidade() {
+        return txtCidade;
+    }
+
+   
+    public void setTxtCidade(JTextField txtCidade) {
+        this.txtCidade = txtCidade;
+    }
+
+    
+    public JLabel getIblCEP() {
+        return iblCEP;
+    }
+
+    public void setIblCEP(JLabel iblCEP) {
+        this.iblCEP = iblCEP;
+    }
+
+    
+    public JTextField getTxtCEP() {
+        return txtCEP;
+    }
+
+    public void setTxtCEP(JTextField txtCEP) {
+        this.txtCEP = txtCEP;
+    }
+
+   
+    public JLabel getIblUf() {
+        return iblUf;
+    }
+
+   
+    public void setIblUf(JLabel iblUf) {
+        this.iblUf = iblUf;
+    }
+
+    
+    public JTextField getTxtUf() {
+        return txtUf;
+    }
+
+    
+    public void setTxtUf(JTextField txtUf) {
+        this.txtUf = txtUf;
+    }
+
+   
+    public JLabel getIblTempo_de_residencia() {
+        return iblTempo_de_residencia;
+    }
+
+    
+    public void setIblTempo_de_residencia(JLabel iblTempo_de_residencia) {
+        this.iblTempo_de_residencia = iblTempo_de_residencia;
+    }
+
+    
+    public JTextField getTxtTempo_de_residencia() {
+        return txtTempo_de_residencia;
+    }
+
+    public void setTxtTempo_de_residencia(JTextField txtTempo_de_residencia) {
+        this.txtTempo_de_residencia = txtTempo_de_residencia;
+    }
+
+    public JLabel getIblValor_do_Patrimonio() {
+        return iblValor_do_Patrimonio;
+    }
+
+    
+    public void setIblValor_do_Patrimonio(JLabel iblValor_do_Patrimonio) {
+        this.iblValor_do_Patrimonio = iblValor_do_Patrimonio;
+    }
+
+    
+    public JTextField getTxtValor_do_Patrimonio() {
+        return txtValor_do_Patrimonio;
+    }
+
+    
+    public void setTxtValor_do_Patrimonio(JTextField txtValor_do_Patrimonio) {
+        this.txtValor_do_Patrimonio = txtValor_do_Patrimonio;
+    }
+public JLabel getIblTipo_de_residencia() {
+        return iblTipo_de_residencia;
+    }
+
+    public void setIblTipo_de_residencia(JLabel iblTipo_de_residencia) {
+        this.iblTipo_de_residencia = iblTipo_de_residencia;
+    }
+
+   
+    public JTextField getTxtTipo_de_residencia() {
+        return txtTipo_de_residencia;
+    }
+
+    
+    public void setTxtTipo_de_residencia(JTextField txtTipo_de_residencia) {
+        this.txtTipo_de_residencia = txtTipo_de_residencia;
+    }
+
+    
+    public JLabel getIblPropria() {
+        return iblPropria;
+    }
+
+    
+    public void setIblPropria(JLabel iblPropria) {
+        this.iblPropria = iblPropria;
+    }
+
+    
+    public JTextField getTxtPropria() {
+        return txtPropria;
+    }
+
+    
+    public void setTxtPropria(JTextField txtPropria) {
+        this.txtPropria = txtPropria;
+    }
+
+    public JLabel getIblAlugada() {
+        return iblAlugada;
+    }
+
+    
+    public void setIblAlugada(JLabel iblAlugada) {
+        this.iblAlugada = iblAlugada;
+    }
+
+    
+    public JTextField getTxtAlugada() {
+        return txtAlugada;
+    }
+
+   
+    public void setTxtAlugada(JTextField txtAlugada) {
+        this.txtAlugada = txtAlugada;
+    }
+
+   
+    public JLabel getIblCom_Parentes() {
+        return iblCom_Parentes;
+    }
+
+    
+    public void setIblCom_Parentes(JLabel iblCom_Parentes) {
+        this.iblCom_Parentes = iblCom_Parentes;
+    }
+
+    
+    public JTextField getTxtCom_Parentes() {
+        return txtCom_Parentes;
+    }
+
+   
+    public void setTxtCom_Parentes(JTextField txtCom_Parentes) {
+        this.txtCom_Parentes = txtCom_Parentes;
+    }
+
+    
+    public JLabel getIblFuncional() {
+        return iblFuncional;
+    }
+
+    
+    public void setIblFuncional(JLabel iblFuncional) {
+        this.iblFuncional = iblFuncional;
+    }
+
+    
+    public JTextField getTxtFuncional() {
+        return txtFuncional;
+    }
+
+    
+    public void setTxtFuncional(JTextField txtFuncional) {
+        this.txtFuncional = txtFuncional;
+    }
+
+   
+    public JLabel getIblDadosProfissionais() {
+        return iblDadosProfissionais;
+    }
+
+    
+    public void setIblDadosProfissionais(JLabel iblDadosProfissionais) {
+        this.iblDadosProfissionais = iblDadosProfissionais;
+    }
+
+    
+    public JTextField getTxtDadosProfissionais() {
+        return txtDadosProfissionais;
+    }
+
+    
+    public void setTxtDadosProfissionais(JTextField txtDadosProfissionais) {
+        this.txtDadosProfissionais = txtDadosProfissionais;
+    }
+
+    public JLabel getIblNome_Da_Empresa() {
+        return iblNome_Da_Empresa;
+    }
+
+    
+    public void setIblNome_Da_Empresa(JLabel iblNome_Da_Empresa) {
+        this.iblNome_Da_Empresa = iblNome_Da_Empresa;
+    }
+
+    
+    public JTextField getTxtNome_Da_Empresa() {
+        return txtNome_Da_Empresa;
+    }
+
+   
+    public void setTxtNome_Da_Empresa(JTextField txtNome_Da_Empresa) {
+        this.txtNome_Da_Empresa = txtNome_Da_Empresa;
+    }
+
+    public JLabel getIblCNPJ() {
+        return iblCNPJ;
+    }
+
+    
+    public void setIblCNPJ(JLabel iblCNPJ) {
+        this.iblCNPJ = iblCNPJ;
+    }
+
+    public JTextField getTxtCNPJ() {
+        return txtCNPJ;
+    }
+
+    
+    public void setTxtCNPJ(JTextField txtCNPJ) {
+        this.txtCNPJ = txtCNPJ;
+    }
+
+    
+    public JLabel getIblEndereço_Comercial() {
+        return iblEndereço_Comercial;
+    }
+
+    
+    public void setIblEndereço_Comercial(JLabel iblEndereço_Comercial) {
+        this.iblEndereço_Comercial = iblEndereço_Comercial;
+    }
+
+    
+    public JTextField getTxtEndereço_Comercial() {
+        return txtEndereço_Comercial;
+    }
+
+    
+    public void setTxtEndereço_Comercial(JTextField txtEndereço_Comercial) {
+        this.txtEndereço_Comercial = txtEndereço_Comercial;
+    }
+
+    
+    public JLabel getIblNumero() {
+        return iblNumero;
+    }
+
+    public void setIblNumero(JLabel iblNumero) {
+        this.iblNumero = iblNumero;
+    }
+
+   
+    public JTextField getTxtNumero() {
+        return txtNumero;
+    }
+
+    
+    public void setTxtNumero(JTextField txtNumero) {
+        this.txtNumero = txtNumero;
+    }
+
+    
+    public JLabel getIblcomplemento() {
+        return iblcomplemento;
+    }
+
+    
+    public void setIblcomplemento(JLabel iblcomplemento) {
+        this.iblcomplemento = iblcomplemento;
+    }
+
+    public JTextField getTxtcomplemento() {
+        return txtcomplemento;
+    }
+
+    public void setTxtcomplemento(JTextField txtcomplemento) {
+        this.txtcomplemento = txtcomplemento;
+    }
+
+   
+    public JLabel getIblbairro() {
+        return iblbairro;
+    }
+
+    
+    public void setIblbairro(JLabel iblbairro) {
+        this.iblbairro = iblbairro;
+    }
+
+   
+    public JTextField getTxtbairro() {
+        return txtbairro;
+    }
+
+    public void setTxtbairro(JTextField txtbairro) {
+        this.txtbairro = txtbairro;
+    }
+
+    public JLabel getIblcidade() {
+        return iblcidade;
+    }
+
+    public void setIblcidade(JLabel iblcidade) {
+        this.iblcidade = iblcidade;
+    }
+
+    
+    public JTextField getTxtcidade() {
+        return txtcidade;
+    }
+
+    
+    public void setTxtcidade(JTextField txtcidade) {
+        this.txtcidade = txtcidade;
+    }
+
+    
+    public JLabel getIblCep() {
+        return iblCep;
+    }
+
+    
+    public void setIblCep(JLabel iblCep) {
+        this.iblCep = iblCep;
+    }
+
+    public JTextField getTxtCep() {
+        return txtCep;
+    }
+
+    
+    public void setTxtCep(JTextField txtCep) {
+        this.txtCep = txtCep;
+    }
+
+    
+    public JLabel getIbluF() {
+        return ibluF;
+    }
+
+    
+    public void setIbluF(JLabel ibluF) {
+        this.ibluF = ibluF;
+    }
+
+    
+    public JTextField getTxtuF() {
+        return txtuF;
+    }
+
+    
+    public void setTxtuF(JTextField txtuF) {
+        this.txtuF = txtuF;
+    }
+
+    
+    public JLabel getIblTelefone() {
+        return iblTelefone;
+    }
+
+    public void setIblTelefone(JLabel iblTelefone) {
+        this.iblTelefone = iblTelefone;
+    }
+
+    
+    public JTextField getTxtTelefone() {
+        return txtTelefone;
+    }
+
+    
+    public void setTxtTelefone(JTextField txtTelefone) {
+        this.txtTelefone = txtTelefone;
+    }
+
+    
+    public JLabel getIblData_admissao() {
+        return iblData_admissao;
+    }
+
+    
+    public void setIblData_admissao(JLabel iblData_admissao) {
+        this.iblData_admissao = iblData_admissao;
+    }
+
+    
+    public JTextField getTxtData_admissao() {
+        return txtData_admissao;
+    }
+
+    
+    public void setTxtData_admissao(JTextField txtData_admissao) {
+        this.txtData_admissao = txtData_admissao;
+    }
+
+    
+    public JLabel getIblFuncao() {
+        return iblFuncao;
+    }
+
+    
+    public void setIblFuncao(JLabel iblFuncao) {
+        this.iblFuncao = iblFuncao;
+    }
+
+    
+    public JTextField getTxtFuncao() {
+        return txtFuncao;
+    }
+
+    
+    public void setTxtFuncao(JTextField txtFuncao) {
+        this.txtFuncao = txtFuncao;
+    }
+
+    
+    public JLabel getIblRenda_Mensal() {
+        return iblRenda_Mensal;
+    }
+
+    
+    public void setIblRenda_Mensal(JLabel iblRenda_Mensal) {
+        this.iblRenda_Mensal = iblRenda_Mensal;
+    }
+
+    
+    public JTextField getTxtRenda_Mensal() {
+        return txtRenda_Mensal;
+    }
+
+    
+    public void setTxtRenda_Mensal(JTextField txtRenda_Mensal) {
+        this.txtRenda_Mensal = txtRenda_Mensal;
+    }
+
+    
+    public JLabel getIblOutras_rendas() {
+        return iblOutras_rendas;
+    }
+
+    
+    public void setIblOutras_rendas(JLabel iblOutras_rendas) {
+        this.iblOutras_rendas = iblOutras_rendas;
+    }
+
+    
+    public JTextField getTxtOutras_rendas() {
+        return txtOutras_rendas;
+    }
+
+    
+    public void setTxtOutras_rendas(JTextField txtOutras_rendas) {
+        this.txtOutras_rendas = txtOutras_rendas;
+    }
+
+    
+    public JLabel getIblTipo_de_renda() {
+        return iblTipo_de_renda;
+    }
+
+    
+    public void setIblTipo_de_renda(JLabel iblTipo_de_renda) {
+        this.iblTipo_de_renda = iblTipo_de_renda;
+    }
+
+    
+    public JTextField getTxtTipo_de_renda() {
+        return txtTipo_de_renda;
+    }
+
+    
+    public void setTxtTipo_de_renda(JTextField txtTipo_de_renda) {
+        this.txtTipo_de_renda = txtTipo_de_renda;
+    }
+
+    
+    public JLabel getIblTipo_de_compre_de_renda() {
+        return iblTipo_de_compre_de_renda;
+    }
+
+    
+    public void setIblTipo_de_compre_de_renda(JLabel iblTipo_de_compre_de_renda) {
+        this.iblTipo_de_compre_de_renda = iblTipo_de_compre_de_renda;
+    }
+
+    
+    public JTextField getTxtTipo_de_compre_de_renda() {
+        return txtTipo_de_compre_de_renda;
+    }
+
+    
+    public void setTxtTipo_de_compre_de_renda(JTextField txtTipo_de_compre_de_renda) {
+        this.txtTipo_de_compre_de_renda = txtTipo_de_compre_de_renda;
+    }
+
+    
+    public JLabel getIblHolerite() {
+        return iblHolerite;
+    }
+
+    public void setIblHolerite(JLabel iblHolerite) {
+        this.iblHolerite = iblHolerite;
+    }
+
+    
+    public JTextField getTxtHolerite() {
+        return txtHolerite;
+    }
+
+    public void setTxtHolerite(JTextField txtHolerite) {
+        this.txtHolerite = txtHolerite;
+    }
+
+   
+    public JLabel getIblExtrato_Bancario() {
+        return iblExtrato_Bancario;
+    }
+
+    
+    public void setIblExtrato_Bancario(JLabel iblExtrato_Bancario) {
+        this.iblExtrato_Bancario = iblExtrato_Bancario;
+    }
+
+   
+    public JTextField getTxtExtrato_Bancario() {
+        return txtExtrato_Bancario;
+    }
+
+    
+    public void setTxtExtrato_Bancario(JTextField txtExtrato_Bancario) {
+        this.txtExtrato_Bancario = txtExtrato_Bancario;
+    }
+
+    
+    public JLabel getIblOutos() {
+        return iblOutos;
+    }
+
+    public void setIblOutos(JLabel iblOutos) {
+        this.iblOutos = iblOutos;
+    }
+
+    
+    public JTextField getTxtOutos() {
+        return txtOutos;
+    }
+
+    
+    public void setTxtOutos(JTextField txtOutos) {
+        this.txtOutos = txtOutos;
+    }
+
+    
+    public JLabel getIblPatrimonio() {
+        return iblPatrimonio;
+    }
+
+    
+    public void setIblPatrimonio(JLabel iblPatrimonio) {
+        this.iblPatrimonio = iblPatrimonio;
+    }
+
+    
+    public JTextField getTxtPatrimonio() {
+        return txtPatrimonio;
+    }
+
+    
+    public void setTxtPatrimonio(JTextField txtPatrimonio) {
+        this.txtPatrimonio = txtPatrimonio;
+    }
+
+    
+    public JLabel getIblNATUREZA_DA_OPERAÇÃO() {
+        return iblNATUREZA_DA_OPERAÇÃO;
+    }
+
+   
+    public void setIblNATUREZA_DA_OPERAÇÃO(JLabel iblNATUREZA_DA_OPERAÇÃO) {
+        this.iblNATUREZA_DA_OPERAÇÃO = iblNATUREZA_DA_OPERAÇÃO;
+    }
+
+   
+    public JTextField getTxtNATUREZA_DA_OPERAÇÃO() {
+        return txtNATUREZA_DA_OPERAÇÃO;
+    }
+
+   
+    public void setTxtNATUREZA_DA_OPERAÇÃO(JTextField txtNATUREZA_DA_OPERAÇÃO) {
+        this.txtNATUREZA_DA_OPERAÇÃO = txtNATUREZA_DA_OPERAÇÃO;
+    }
+    
+         
+    
+  
+    Janela02(){
+        
+        
+                
+        this.setSize(1000, 1500);
+        this.setTitle("Minha primeira janela");
+        this.setVisible(true);
+        this.setIblNIPPONFLEX(new JLabel("NIPPONFLEX"));
+        this.getIblNIPPONFLEX().setBounds(0, 0, 100, 30);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblNIPPONFLEX());
+        
+        this.setIblDados_Pessoais(new JLabel("DADOS PESSOAIS"));
+        this.getIblDados_Pessoais().setBounds(150, 0, 110, 30);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblDados_Pessoais());
+       
+       
+        this.setIblEUMFLEX(new JLabel("EUMFLEX"));
+        this.getIblEUMFLEX().setBounds(300, 0, 105, 30);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblEUMFLEX());
+       
+                            
+        this.setIblNome(new JLabel("Nome:"));
+        this.getIblNome().setBounds(0, 0, 100, 80);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblNome()); 
+        
+    
+        
+        this.setIblData_de_Nacimento(new JLabel("Data de Nascimento:"));
+        this.getIblData_de_Nacimento().setBounds(150, 0,120 , 80);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblData_de_Nacimento());
+        
+        
+        this.setIblCpf(new JLabel("CPF:"));
+        this.getIblCpf().setBounds(300, 0,140 , 80);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblCpf());
+        
+        
+        this.setIblNacionalidade(new JLabel("Nacionalidade:"));
+        this.getIblNacionalidade().setBounds(0, 0,250 , 140);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblNacionalidade());
+        
+        
+         this.setIblRg(new JLabel("RG:"));
+        this.getIblRg().setBounds(150, 0,250 , 140);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblRg());
+        
+               
+        this.setIblCpf(new JLabel("Data de Emissão:"));
+        this.getIblCpf().setBounds(300, 0,250 , 140);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblCpf());
+        
+        this.setIblCpf(new JLabel("Orgão Emissor:"));
+        this.getIblCpf().setBounds(0, 0,250 , 200);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblCpf());
+        
+        this.setIblCpf(new JLabel("UF:"));
+        this.getIblCpf().setBounds(150, 0,250 , 200);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblCpf());
+        
+        this.setIblCpf(new JLabel("Pais documento:"));
+        this.getIblCpf().setBounds(300, 0,250 , 200);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblCpf());
+      
+      
+        this.setIblNaturalidade(new JLabel("Naturalidade:"));
+        this.getIblPNaturalidade().setBounds(450,0,410, 200);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblPNaturalidade());
+        
+        
+        this.setIblUF(new JLabel("UF:"));
+        this.getIblUF().setBounds(600, 0,550 , 200);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblUF());
+        
+        this.setIblNome_da_mae(new JLabel("Nome da Mãe:"));
+        this.getIblNome_da_mae().setBounds(0,0,250,300);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblNome_da_mae());
+        
+        this.setIblFone_Res(new JLabel("Fone Res:"));
+        this.getIblFone_Res().setBounds(250,0,110,300);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblFone_Res());
+             
+        this.setIblNome_do_Pai(new JLabel("Nome Pai :"));
+        this.getIblNome_do_Pai().setBounds(0,0,110,350);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblNome_do_Pai());
+             
+        
+        this.setIblCel(new JLabel("Cel :"));
+        this.getIblCel().setBounds(312,0,110,350);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblCel());
+             
+        this.setIblEndereco(new JLabel("Endereco :"));
+        this.getIblEndereco().setBounds(0,0,110,400);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblEndereco());
+             
+        this.setIbl_numero(new JLabel("N° :"));
+        this.getIbl_numero().setBounds(120,0,110,400);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIbl_numero());
+        
+        
+        this.setIblComplemento(new JLabel("Complemento :"));
+        this.getIblComplemento().setBounds(220,0,110,400);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblComplemento());
+        
+        
+        this.setIblBairro(new JLabel("Bairro :"));
+        this.getIblBairro().setBounds(0,0,110,500);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblBairro());
+        
+        
+        this.setIblCidade(new JLabel("Cidade :"));
+        this.getIblCidade().setBounds(100,0,110,500);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblCidade());
+        
+        
+        this.setIblCEP(new JLabel("CEP :"));
+        this.getIblCEP().setBounds(0,0,110,545);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblCEP());
+        
+        this.setIblUf(new JLabel("UF :"));
+        this.getIblUf().setBounds(100,0,110,545);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblUf());
+          
+        this.setIblValor_do_Patrimonio(new JLabel("Valor do Patrimonio R$:"));
+        this.getIblValor_do_Patrimonio().setBounds(250,0,410,545);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblValor_do_Patrimonio());
+        
+        
+        this.setIblTempo_de_residencia(new JLabel("Tempo de Residencia :"));
+        this.getIblTempo_de_residencia().setBounds(410,0,410,545);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblTempo_de_residencia());
+        
+        this.setIblTipo_de_residencia(new JLabel("Tipo de Residencia:"));
+        this.getIblTempo_de_residencia().setBounds(0,0,410,610);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblTipo_de_residencia());
+        
+        this.setIblPropria(new JLabel("1- Propria:"));
+        this.getIblPropria().setBounds(200,0,210,610);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblPropria());
+        
+        this.setIblAlugada(new JLabel("2- Alugada:"));
+        this.getIblAlugada().setBounds(300,0,460,610);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblAlugada());
+        
+        
+        this.setIblCom_Parentes(new JLabel("3- Com Parentes:"));
+        this.getIblCom_Parentes().setBounds(460,0,310,610);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblCom_Parentes());
+        
+        this.setIblFuncional(new JLabel("4- Funcional:"));
+        this.getIblFuncional().setBounds(650,0,210,610);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblFuncional());
+      
+        this.setIblDadosProfissionais(new JLabel("DADOS PROFISSIONAIS:"));
+        this.getIblDadosProfissionais().setBounds(400,0,210,810);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblDadosProfissionais());
+      
+         this.setIblNome_Da_Empresa(new JLabel("Nome da Empresa:"));
+        this.getIblNome_Da_Empresa().setBounds(0,0,210,910);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblNome_Da_Empresa());
+       
+        this.setIblCNPJ(new JLabel("CNPJ:"));
+        this.getIblCNPJ().setBounds(450,0,210,910);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblCNPJ());
+      
+        this.setIblEndereço_Comercial(new JLabel("Endereço Comercial:"));
+        this.getIblEndereço_Comercial().setBounds(0,0,510,1000);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblEndereço_Comercial());
+        
+        this.setIblNumero(new JLabel("N°:"));
+        this.getIblNumero().setBounds(320,0,210,1010);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblNumero());
+      
+        this.setIblcomplemento(new JLabel("complemento:"));
+        this.getIblcomplemento().setBounds(340,0,210,1010);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblcomplemento());
+         
+        this.setIblbairro(new JLabel("Bairro:"));
+        this.getIblbairro().setBounds(0,0,210,1042);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblbairro());
+        
+        this.setIblcidade(new JLabel("Cidade:"));
+        this.getIblcidade().setBounds(100,0,210,1042);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblcidade());
+        
+        this.setIblCep(new JLabel("CEP:"));
+        this.getIblCep().setBounds(310,0,210,1042);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblCep());
+             
+        this.setIbluF(new JLabel("UF:"));
+        this.getIbluF().setBounds(0,0,210,1075);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIbluF());
+                        
+        this.setIblTelefone(new JLabel("Telefone():"));
+        this.getIblTelefone().setBounds(120,0,210,2160);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblTelefone());
+                             
+        this.setIblData_admissao(new JLabel("Data admissao:"));
+        this.getIblData_admissao().setBounds(160,0,210,2160);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblData_admissao());
+        
+        this.setIblFuncao(new JLabel("Função:"));
+        this.getIblFuncao().setBounds(260,0,210,2160);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblFuncao());
+        
+        this.setIblRenda_Mensal(new JLabel("Renda Mensal:"));
+        this.getIblRenda_Mensal().setBounds(0,0,210,2200);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblRenda_Mensal());
+        
+        this.setIblOutras_rendas(new JLabel("Outras Rendas:"));
+        this.getIblOutras_rendas().setBounds(120,0,210,2200);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblOutras_rendas());
+        
+        this.setIblTipo_de_renda(new JLabel("Tipo de Renda:"));
+        this.getIblTipo_de_renda().setBounds(120,0,210,2200);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblTipo_de_renda());
+        
+        this.setIblTipo_de_compre_de_renda(new JLabel("Tipo de compre de renda:"));
+        this.getIblTipo_de_compre_de_renda().setBounds(0,0,210,2240);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblTipo_de_compre_de_renda());
+        
+        this.setIblHolerite(new JLabel("Holerite:"));
+        this.getIblHolerite().setBounds(120,0,210,2240);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblHolerite());
+        
+        this.setIblExtrato_Bancario(new JLabel("Extrato Bancario:"));
+        this.getIblExtrato_Bancario().setBounds(220,0,210,2240);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblExtrato_Bancario());
+             
+    }
+  } 
+  
+  
+  
+  
+  
+  
+  *--*-*******************************************
+  
+  testar 
+  
+  
+  *-*-*-*-
+  
+  package prova2;
+
+/**
+ *
+ * @author pedro
+ */
+public class Aula01 {
+    
+    public static void main(String []args){
+      Janela02 frm1 = new Janela02(); 
+            
+   }
+}
+
+  
+  
+  
+  
+  
+  
+  
+  
