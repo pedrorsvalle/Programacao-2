@@ -1,0 +1,1157 @@
+
+package prova2;
+
+import java.awt.Container;
+import java.awt.FlowLayout;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+
+
+/**
+ *
+ * @author pedro
+ */
+
+  public class Janela02  extends JFrame {
+       
+    private Container ctnJanela02;   
+    private JLabel iblNIPPONFLEX;
+    private JTextField txtNIPPONFLEX;
+    private JLabel iblDados_Pessoais;
+    private JTextField txtDados_Pessoais;
+    private JLabel iblEUMFLEX;
+    private JTextField txtEUMFLEX;
+    private JLabel iblNome;
+    private JTextField txtNome;
+    private JLabel iblData_de_Nascimento;
+    private JTextField txtData_de_Nascimento;
+    private JLabel iblCpf;
+    private JTextField txtCpf;
+    private JLabel iblNacionalidade;
+    private JTextField txtNacionalidade;
+    private JLabel iblRg;
+    private JTextField txtRg;
+    private JLabel iblData_De_Emissão;
+    private JTextField txtData_De_Emissão;
+    private JLabel iblOrgao_Emissor;
+    private JTextField txtOrgao_Emissor;
+    private JLabel iblUF;
+    private JTextField txtUF;
+    private JLabel iblPaís_Documento;
+    private JTextField txtPaís_Documento;
+    private JLabel iblnaturalidade;
+    private JTextField txtnaturalidade;
+    private JLabel ibluf;
+    private JTextField txtuf;
+    private JLabel iblNome_da_mae;
+    private JTextField txtNome_da_mae;
+    private JLabel iblFone_Res;
+    private JTextField txtFone_Res;
+    private JLabel iblNome_do_Pai;
+    private JTextField txtNome_do_Pai;
+    private JLabel iblCel;
+    private JTextField txtCel;
+    private JLabel iblEndereco;
+    private JTextField txtEndereco;
+    private JLabel ibl_numero;
+    private JTextField txt_numero;
+    private JLabel iblComplemento;
+    private JTextField txtComplemento;
+    private JLabel iblBairro;
+    private JTextField txtBairro;
+    private JLabel iblCidade;
+    private JTextField txtCidade;
+    private JLabel iblCEP;
+    private JTextField txtCEP;
+    private JLabel iblUf;
+    private JTextField txtUf;
+    private JLabel iblTempo_de_residencia;
+    private JTextField txtTempo_de_residencia;
+    private JLabel iblValor_do_Patrimonio;
+    private JTextField txtValor_do_Patrimonio;
+    private JLabel iblTipo_de_residencia;
+    private JTextField txtTipo_de_residencia; 
+    private JLabel iblPropria;
+    private JTextField txtPropria;   
+    private JLabel iblAlugada;
+    private JTextField txtAlugada;  
+    private JLabel iblCom_Parentes;
+    private JTextField txtCom_Parentes;   
+    private JLabel iblFuncional;
+    private JTextField txtFuncional;
+    
+    
+    
+   
+        
+    
+    public JLabel getIblNIPPONFLEX() {
+        return iblNIPPONFLEX;
+    }
+
+    
+    public void setIblNIPPONFLEX(JLabel iblNIPPONFLEX) {
+        this.iblNIPPONFLEX = iblNIPPONFLEX;
+    }
+
+   
+    public JTextField getTxtNIPPONFLEX() {
+        return txtNIPPONFLEX;
+    }
+
+    
+    public void setTxtNIPPONFLEX(JTextField txtNIPPONFLEX) {
+        this.txtNIPPONFLEX = txtNIPPONFLEX;
+    }
+
+   
+    public JLabel getIblDados_Pessoais() {
+        return iblDados_Pessoais;
+    }
+
+   
+    public void setIblDados_Pessoais(JLabel iblDados_Pessoais) {
+        this.iblDados_Pessoais = iblDados_Pessoais;
+    }
+
+   
+    public JTextField getTxtDados_Pessoais() {
+        return txtDados_Pessoais;
+    }
+
+   
+    public void setTxtDados_Pessoais(JTextField txtDados_Pessoais) {
+        this.txtDados_Pessoais = txtDados_Pessoais;
+    }
+
+    
+    public JLabel getIblEUMFLEX() {
+        return iblEUMFLEX;
+    }
+
+   
+    public void setIblEUMFLEX(JLabel iblEUMFLEX) {
+        this.iblEUMFLEX = iblEUMFLEX;
+    }
+
+    
+    public JTextField getTxtEUMFLEX() {
+        return txtEUMFLEX;
+    }
+
+    
+    public void setTxtEUMFLEX(JTextField txtEUMFLEX) {
+        this.txtEUMFLEX = txtEUMFLEX;
+    }
+
+    
+    public JLabel getIblNome() {
+        return iblNome;
+    }
+
+    
+    public void setIblNome(JLabel iblNome) {
+        this.iblNome = iblNome;
+    }
+
+    
+    public JTextField getTxtNome() {
+        return txtNome;
+    }
+
+    
+    public void setTxtNome(JTextField txtNome) {
+        this.txtNome = txtNome;
+    }
+
+   
+    public JLabel getIblData_de_Nacimento() {
+        return iblData_de_Nascimento;
+    }
+
+    
+    public void setIblData_de_Nascimento(JLabel iblData_de_Nascimento) {
+        this.iblData_de_Nascimento = iblData_de_Nascimento;
+    }
+
+    
+    public JTextField getTxtData_de_Nascimento() {
+        return txtData_de_Nascimento;
+    }
+
+    
+    public void setTxtData_de_Nascimento(JTextField txtData_de_Nascimento) {
+        this.txtData_de_Nascimento = txtData_de_Nascimento;
+    }
+
+    
+    public JLabel getIblCpf() {
+        return iblCpf;
+    }
+
+    
+    public void setIblCpf(JLabel iblCpf) {
+        this.iblCpf = iblCpf;
+    }
+
+    
+    public JTextField getTxtCpf() {
+        return txtCpf;
+    }
+
+    
+    public void setTxtCpf(JTextField txtCpf) {
+        this.txtCpf = txtCpf;
+    }
+
+    
+    public JLabel getIblNacionalidade() {
+        return iblNacionalidade;
+    }
+
+    
+    public void setIblNacionalidade(JLabel iblNacionalidade) {
+        this.iblNacionalidade = iblNacionalidade;
+    }
+
+    public JTextField getTxtNacionalidade() {
+        return txtNacionalidade;
+    }
+
+    
+    public void setTxtNacionalidade(JTextField txtNacionalidade) {
+        this.txtNacionalidade = txtNacionalidade;
+    }
+
+    
+    public JLabel getIblRg() {
+        return iblRg;
+    }
+
+    public void setIblRg(JLabel iblRg) {
+        this.iblRg = iblRg;
+    }
+
+    
+    public JTextField getTxtRg() {
+        return txtRg;
+    }
+
+    
+    public void setTxtRg(JTextField txtRg) {
+        this.txtRg = txtRg;
+    }
+
+   
+    public JLabel getIblData_De_Emissão() {
+        return iblData_De_Emissão;
+    }
+
+   
+    public void setIblData_De_Emissão(JLabel iblData_De_Emissão) {
+        this.iblData_De_Emissão = iblData_De_Emissão;
+    }
+
+    
+    public JTextField getTxtData_De_Emissão() {
+        return txtData_De_Emissão;
+    }
+
+    
+    public void setTxtData_De_Emissão(JTextField txtData_De_Emissão) {
+        this.txtData_De_Emissão = txtData_De_Emissão;
+    }
+
+  
+    public JLabel getIblOrgao_Emissor() {
+        return iblOrgao_Emissor;
+    }
+
+    
+    public void setIblOrgao_Emissor(JLabel iblOrgao_Emissor) {
+        this.iblOrgao_Emissor = iblOrgao_Emissor;
+    }
+
+    
+    public JTextField getTxtOrgao_Emissor() {
+        return txtOrgao_Emissor;
+    }
+
+    
+    public void setTxtOrgao_Emissor(JTextField txtOrgao_Emissor) {
+        this.txtOrgao_Emissor = txtOrgao_Emissor;
+    }
+
+   
+    public JLabel getIblUF() {
+        return iblUF;
+    }
+
+    
+    public void setIblUF(JLabel iblUF) {
+        this.iblUF = iblUF;
+    }
+
+    
+    public JTextField getTxtUF() {
+        return txtUF;
+    }
+
+   
+    public void setTxtUF(JTextField txtUF) {
+        this.txtUF = txtUF;
+    }
+
+    
+    public JLabel getIblPaís_Documento() {
+        return iblPaís_Documento;
+    }
+
+    
+    public void setIblPaís_Documento(JLabel iblPaís_Documento) {
+        this.iblPaís_Documento = iblPaís_Documento;
+    }
+
+    
+    public JTextField getTxtPaís_Documento() {
+        return txtPaís_Documento;
+    }
+
+   
+    public void setTxtPaís_Documento(JTextField txtPaís_Documento) {
+        this.txtPaís_Documento = txtPaís_Documento;
+    }
+
+    
+    
+    public JLabel getIblNaturalidade() {
+        return iblnaturalidade;
+    }
+
+   
+    public void setIblNaturalidade(JLabel iblNaturalidade) {
+        this.iblnaturalidade = iblNaturalidade;
+    }
+
+  
+    public JTextField getTxtNaturalidade() { 
+        return txtnaturalidade;
+    }
+
+  
+    public void setTxtNaturalidade(JTextField txtNaturalidade) {
+        this.txtnaturalidade = txtNaturalidade;
+    }
+
+   
+    public JLabel getIbluf() {
+        return ibluf;
+    }
+
+    
+    public void setIbluf(JLabel ibluf) {
+        this.ibluf = ibluf;
+    }
+
+   
+    public JTextField getTxtuf() {
+        return txtuf;
+    }
+
+    
+    public void setTxtuf(JTextField txtuf) {
+        this.txtuf = txtuf;
+    }
+
+    
+    public JLabel getIblNome_da_mae() {
+        return iblNome_da_mae;
+    }
+
+   
+    public void setIblNome_da_mae(JLabel iblNome_da_mae) {
+        this.iblNome_da_mae = iblNome_da_mae;
+    }
+
+    
+    public JTextField getTxtNome_da_mae() {
+        return txtNome_da_mae;
+    }
+
+   
+    public void setTxtNome_da_mae(JTextField txtNome_da_mae) {
+        this.txtNome_da_mae = txtNome_da_mae;
+    }
+
+    public JLabel getIblFone_Res() {
+        return iblFone_Res;
+    }
+
+    
+    public void setIblFone_Res(JLabel iblFone_Res) {
+        this.iblFone_Res = iblFone_Res;
+    }
+
+    public JTextField getTxtFone_Res() {
+        return txtFone_Res;
+    }
+
+    public void setTxtFone_Res(JTextField txtFone_Res) {
+        this.txtFone_Res = txtFone_Res;
+    }
+
+   
+    public JLabel getIblNome_do_Pai() {
+        return iblNome_do_Pai;
+    }
+
+    
+    public void setIblNome_do_Pai(JLabel iblNome_do_Pai) {
+        this.iblNome_do_Pai = iblNome_do_Pai;
+    }
+
+    
+    public JTextField getTxtNome_do_Pai() {
+        return txtNome_do_Pai;
+    }
+
+   
+    public void setTxtNome_do_Pai(JTextField txtNome_do_Pai) {
+        this.txtNome_do_Pai = txtNome_do_Pai;
+    }
+
+   
+    public JLabel getIblCel() {
+        return iblCel;
+    }
+
+    
+    public void setIblCel(JLabel iblCel) {
+        this.iblCel = iblCel;
+    }
+
+    
+    public JTextField getTxtCel() {
+        return txtCel;
+    }
+
+    
+    public void setTxtCel(JTextField txtCel) {
+        this.txtCel = txtCel;
+    }
+
+    
+    public JLabel getIblEndereco() {
+        return iblEndereco;
+    }
+
+    public void setIblEndereco(JLabel iblEndereco) {
+        this.iblEndereco = iblEndereco;
+    }
+
+    
+    public JTextField getTxtEndereco() {
+        return txtEndereco;
+    }
+
+    public void setTxtEndereco(JTextField txtEndereco) {
+        this.txtEndereco = txtEndereco;
+    }
+
+    
+    public JLabel getIbl_numero() {
+        return ibl_numero;
+    }
+
+   
+    public void setIbl_numero(JLabel ibl_numero) {
+        this.ibl_numero = ibl_numero;
+    }
+
+    
+    public JTextField getTxt_numero() {
+        return txt_numero;
+    }
+
+    
+    public void setTxt_numero(JTextField txt_numero) {
+        this.txt_numero = txt_numero;
+    }
+
+   
+    public JLabel getIblComplemento() {
+        return iblComplemento;
+    }
+
+   
+    public void setIblComplemento(JLabel iblComplemento) {
+        this.iblComplemento = iblComplemento;
+    }
+
+    
+    public JTextField getTxtComplemento() {
+        return txtComplemento;
+    }
+
+    
+    public void setTxtComplemento(JTextField txtComplemento) {
+        this.txtComplemento = txtComplemento;
+    }
+
+   
+    public JLabel getIblBairro() {
+        return iblBairro;
+    }
+
+    
+    public void setIblBairro(JLabel iblBairro) {
+        this.iblBairro = iblBairro;
+    }
+
+    
+    public JTextField getTxtBairro() {
+        return txtBairro;
+    }
+
+    
+    public void setTxtBairro(JTextField txtBairro) {
+        this.txtBairro = txtBairro;
+    }
+
+    
+    public JLabel getIblCidade() {
+        return iblCidade;
+    }
+
+    
+    public void setIblCidade(JLabel iblCidade) {
+        this.iblCidade = iblCidade;
+    }
+
+   
+    public JTextField getTxtCidade() {
+        return txtCidade;
+    }
+
+   
+    public void setTxtCidade(JTextField txtCidade) {
+        this.txtCidade = txtCidade;
+    }
+
+    
+    public JLabel getIblCEP() {
+        return iblCEP;
+    }
+
+    public void setIblCEP(JLabel iblCEP) {
+        this.iblCEP = iblCEP;
+    }
+
+    
+    public JTextField getTxtCEP() {
+        return txtCEP;
+    }
+
+    public void setTxtCEP(JTextField txtCEP) {
+        this.txtCEP = txtCEP;
+    }
+
+   
+    public JLabel getIblUf() {
+        return iblUf;
+    }
+
+   
+    public void setIblUf(JLabel iblUf) {
+        this.iblUf = iblUf;
+    }
+
+    
+    public JTextField getTxtUf() {
+        return txtUf;
+    }
+
+    
+    public void setTxtUf(JTextField txtUf) {
+        this.txtUf = txtUf;
+    }
+
+   
+    public JLabel getIblTempo_de_residencia() {
+        return iblTempo_de_residencia;
+    }
+
+    
+    public void setIblTempo_de_residencia(JLabel iblTempo_de_residencia) {
+        this.iblTempo_de_residencia = iblTempo_de_residencia;
+    }
+
+    
+    public JTextField getTxtTempo_de_residencia() {
+        return txtTempo_de_residencia;
+    }
+
+    public void setTxtTempo_de_residencia(JTextField txtTempo_de_residencia) {
+        this.txtTempo_de_residencia = txtTempo_de_residencia;
+    }
+
+    public JLabel getIblValor_do_Patrimonio() {
+        return iblValor_do_Patrimonio;
+    }
+
+    
+    public void setIblValor_do_Patrimonio(JLabel iblValor_do_Patrimonio) {
+        this.iblValor_do_Patrimonio = iblValor_do_Patrimonio;
+    }
+
+    
+    public JTextField getTxtValor_do_Patrimonio() {
+        return txtValor_do_Patrimonio;
+    }
+
+    
+    public void setTxtValor_do_Patrimonio(JTextField txtValor_do_Patrimonio) {
+        this.txtValor_do_Patrimonio = txtValor_do_Patrimonio;
+    }
+public JLabel getIblTipo_de_residencia() {
+        return iblTipo_de_residencia;
+    }
+
+    public void setIblTipo_de_residencia(JLabel iblTipo_de_residencia) {
+        this.iblTipo_de_residencia = iblTipo_de_residencia;
+    }
+
+   
+    public JTextField getTxtTipo_de_residencia() {
+        return txtTipo_de_residencia;
+    }
+
+    
+    public void setTxtTipo_de_residencia(JTextField txtTipo_de_residencia) {
+        this.txtTipo_de_residencia = txtTipo_de_residencia;
+    }
+
+    
+    public JLabel getIblPropria() {
+        return iblPropria;
+    }
+
+    
+    public void setIblPropria(JLabel iblPropria) {
+        this.iblPropria = iblPropria;
+    }
+
+    
+    public JTextField getTxtPropria() {
+        return txtPropria;
+    }
+
+    
+    public void setTxtPropria(JTextField txtPropria) {
+        this.txtPropria = txtPropria;
+    }
+
+    public JLabel getIblAlugada() {
+        return iblAlugada;
+    }
+
+    
+    public void setIblAlugada(JLabel iblAlugada) {
+        this.iblAlugada = iblAlugada;
+    }
+
+    
+    public JTextField getTxtAlugada() {
+        return txtAlugada;
+    }
+
+   
+    public void setTxtAlugada(JTextField txtAlugada) {
+        this.txtAlugada = txtAlugada;
+    }
+
+   
+    public JLabel getIblCom_Parentes() {
+        return iblCom_Parentes;
+    }
+
+    
+    public void setIblCom_Parentes(JLabel iblCom_Parentes) {
+        this.iblCom_Parentes = iblCom_Parentes;
+    }
+
+    
+    public JTextField getTxtCom_Parentes() {
+        return txtCom_Parentes;
+    }
+
+   
+    public void setTxtCom_Parentes(JTextField txtCom_Parentes) {
+        this.txtCom_Parentes = txtCom_Parentes;
+    }
+
+    
+    public JLabel getIblFuncional() {
+        return iblFuncional;
+    }
+
+    public void setIblFuncional(JLabel iblFuncional) {
+        this.iblFuncional = iblFuncional;
+    }
+
+   
+    public JTextField getTxtFuncional() {
+        return txtFuncional;
+    }
+
+    
+    public void setTxtFuncional(JTextField txtFunciona) {
+        this.txtFuncional = txtFuncional;
+    }
+   
+   
+        
+    public Container getCtnJanela02() {
+        return ctnJanela02;
+    }
+
+    
+    public void setCtnJanela02(Container ctnJanela02) {
+        this.ctnJanela02 = ctnJanela02;
+    }
+    
+  
+    Janela02(){
+              
+        this.setSize(1300, 1800);
+        this.setTitle("Formulario Cadastro 2");
+        this.setVisible(true);
+        this.setIblNIPPONFLEX(new JLabel("NIPPONFLEX"));
+        this.getIblNIPPONFLEX().setBounds(50, 0, 100, 30);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblNIPPONFLEX());
+        
+        ctnJanela02=getContentPane();
+        ctnJanela02.setLayout(null);
+        
+        
+        this.setIblDados_Pessoais(new JLabel("DADOS PESSOAIS"));
+        this.getIblDados_Pessoais().setBounds(400, 0, 110, 30);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblDados_Pessoais());
+       
+       
+        this.setIblEUMFLEX(new JLabel("EUMFLEX"));
+        this.getIblEUMFLEX().setBounds(800, 0, 105, 30);
+        this.getContentPane().setLayout(null);
+        this.getContentPane().add(this.getIblEUMFLEX());
+   
+       // Nome
+   
+      
+         this.setIblNome(new JLabel("Nome:"));
+         this.getIblNome().setBounds(10, 40, 100, 25);
+         JTextField Nome = new JTextField(40);
+         this.setTxtNome(new JTextField(""));
+         this.getTxtNome().setBounds(60, 40, 200, 25);
+          
+        ctnJanela02.add(iblNome);
+        ctnJanela02.add(txtNome);
+        setVisible(true);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    
+
+   
+       // Data de Nascimento
+   
+          
+           this.setIblData_de_Nascimento(new JLabel("Data de Nascimento:"));
+           this.getIblData_de_Nacimento().setBounds(300, 40, 400, 25);       
+           JTextField Data_de_Nascimento= new JTextField(40);
+           this.setTxtData_de_Nascimento(new JTextField(""));
+           this.getTxtData_de_Nascimento().setBounds(422, 40, 220, 25);
+           
+           ctnJanela02.add(iblData_de_Nascimento);
+           ctnJanela02.add(txtData_de_Nascimento);
+         
+   
+       // CPF
+   
+           
+        this.setIblCpf(new JLabel("CPF:"));
+        this.getIblCpf().setBounds(659, 40, 250, 25);
+       
+           JTextField Cpf = new JTextField(40);
+           this.setTxtCpf(new JTextField(""));
+           this.getTxtCpf().setBounds(704, 40, 220, 25);
+           
+       ctnJanela02.add(iblCpf);
+       ctnJanela02.add(txtCpf);
+        
+        
+     
+        //Nacionalidade
+     
+
+        this.setIblNacionalidade(new JLabel("Nacionalidade:"));
+            this.getIblNacionalidade().setBounds(10, 40, 100, 85);
+           JTextField Nacionalidade = new JTextField(40);
+           this.setTxtNacionalidade(new JTextField(""));
+           this.getTxtNacionalidade().setBounds(100, 70,200,25);
+           
+            ctnJanela02.add(iblNacionalidade);
+            ctnJanela02.add(txtNacionalidade);
+        
+        
+           
+   
+      // Rg
+   
+               
+           this.setIblRg(new JLabel("RG:"));
+           this.getIblRg().setBounds(389, 40, 100,85);
+       
+           JTextField Rg = new JTextField(50);
+           this.setTxtRg(new JTextField(""));
+           this.getTxtRg().setBounds(425,70,200,25);
+           
+            ctnJanela02.add(iblRg);
+            ctnJanela02.add(txtRg);
+        
+               
+            
+            
+   
+      //Data de Emissão      
+    
+           
+            this.setIblData_De_Emissão(new JLabel(" Data de Emissão:"));
+            this.getIblData_De_Emissão().setBounds(643, 40, 120,85);
+       
+           JTextField Data_De_Emissão = new JTextField(50);
+           this.setTxtData_De_Emissão(new JTextField(""));
+           this.getTxtData_De_Emissão().setBounds(755, 70, 200, 25);
+           
+            ctnJanela02.add(iblData_De_Emissão);
+            ctnJanela02.add(txtData_De_Emissão);
+   
+     
+      // Orgão Emissor    
+     
+        
+            this.setIblOrgao_Emissor(new JLabel("Orgão Emissor:"));
+            this.getIblOrgao_Emissor().setBounds(10, 40, 100,150);
+       
+           JTextField Orgao_Emissorr = new JTextField(50);
+           this.setTxtOrgao_Emissor(new JTextField(""));
+           this.getTxtOrgao_Emissor().setBounds(100, 100, 200, 25);
+           
+            ctnJanela02.add(iblOrgao_Emissor);
+            ctnJanela02.add(txtOrgao_Emissor);
+            
+      // UF 
+       
+       
+           this.setIblUF(new JLabel("UF:"));
+           this.getIblUF().setBounds(389,40 , 100,150);
+       
+           JTextField UF = new JTextField(50);
+           this.setTxtUF(new JTextField(""));
+           this.getTxtUF().setBounds(425, 100, 200, 25);
+           
+            ctnJanela02.add(iblUF);
+            ctnJanela02.add(txtUF);
+    
+    
+    //País_Documento
+
+           this.setIblPaís_Documento(new JLabel("País Documento:"));
+           this.getIblPaís_Documento().setBounds(647,40 , 100,150);
+       
+           JTextField País_Documento = new JTextField(50);
+           this.setTxtPaís_Documento(new JTextField(""));
+           this.getTxtPaís_Documento().setBounds(755, 100, 200, 25);
+           
+            ctnJanela02.add(iblPaís_Documento);
+            ctnJanela02.add(txtPaís_Documento);
+    
+//  Naturalidade  
+                    
+           this.setIblNaturalidade(new JLabel("Naturalidade:"));
+           this.getIblNaturalidade().setBounds(970,40 ,100,150);
+       
+           JTextField naturalidade = new JTextField(50);
+           this.setTxtNaturalidade(new JTextField(""));
+           this.getTxtNaturalidade().setBounds(1050, 100, 100, 25);
+           
+            ctnJanela02.add(iblnaturalidade);
+            ctnJanela02.add(txtnaturalidade);
+        
+       
+       // uf
+       
+           this.setIbluf(new JLabel("UF:"));
+           this.getIbluf().setBounds(1174,40,100,150);
+       
+           JTextField uf = new JTextField(10);
+           this.setTxtuf(new JTextField(""));
+           this.getTxtuf().setBounds(1210,103,100,25);
+           
+            ctnJanela02.add(ibluf);
+            ctnJanela02.add(txtuf);
+                    
+     // nome mãe 
+     
+           this.setIblNome_da_mae(new JLabel("Nome da mae:"));
+           this.getIblNome_da_mae().setBounds(10,40 , 100,240);
+       
+           JTextField Nome_da_mae = new JTextField(40);
+           this.setTxtNome_da_mae(new JTextField(""));
+           this.getTxtNome_da_mae().setBounds(100, 150, 200, 25);
+           
+            ctnJanela02.add(iblNome_da_mae);
+            ctnJanela02.add(txtNome_da_mae);
+     
+       
+            
+     // Fone_Res  
+
+    
+           this.setIblFone_Res (new JLabel("Fone Res:"));
+           this.getIblFone_Res ().setBounds(973,40 , 100,240);
+       
+           JTextField Fone_Res  = new JTextField(60);
+           this.setTxtFone_Res (new JTextField(""));
+           this.getTxtFone_Res ().setBounds(1050, 150, 200, 25);
+           
+            ctnJanela02.add(iblFone_Res );
+            ctnJanela02.add(txtFone_Res );
+            
+     // Nome Do Pai 
+             
+           this.setIblNome_do_Pai(new JLabel("Nome Do Pai :"));
+           this.getIblNome_do_Pai().setBounds(10,40 , 100,335);
+       
+           JTextField Nome_do_Pai = new JTextField(40);
+           this.setTxtNome_do_Pai (new JTextField(""));
+           this.getTxtNome_do_Pai().setBounds(100, 200, 200, 25);
+           
+            ctnJanela02.add(iblNome_do_Pai );
+            ctnJanela02.add(txtNome_do_Pai );
+     
+     // Cel 
+           this.setIblCel(new JLabel("Cel :"));
+           this.getIblCel().setBounds(1000,40 , 100,335);
+       
+           JTextField Cel = new JTextField(60);
+           this.setTxtCel (new JTextField(""));
+           this.getTxtCel().setBounds(1050, 200, 200, 25);
+           
+            ctnJanela02.add(iblCel );
+            ctnJanela02.add(txtCel );
+     
+     // Endereco
+            
+            
+           this.setIblEndereco(new JLabel("Endereco :"));
+           this.getIblEndereco().setBounds(10,40 , 100,400);
+       
+           JTextField Endereco = new JTextField(50);
+           this.setTxtEndereco (new JTextField(""));
+           this.getTxtEndereco().setBounds(100, 230, 200, 25);
+           
+            ctnJanela02.add(iblEndereco );
+            ctnJanela02.add(txtEndereco );
+            
+            
+      // N°
+            
+           this.setIbl_numero(new JLabel("N° :"));
+           this.getIbl_numero().setBounds(852,40 , 100,400);
+       
+           JTextField _numero = new JTextField(50);
+           this.setTxt_numero(new JTextField(""));
+           this.getTxt_numero().setBounds(880, 230, 200, 25);
+           
+            ctnJanela02.add(ibl_numero );
+            ctnJanela02.add(txt_numero );
+            
+            
+   // Complemento
+            
+           this.setIblComplemento(new JLabel("Complemento :"));
+           this.getIblComplemento().setBounds(1101,40 ,100,400);
+       
+           JTextField Complemento= new JTextField(50);
+           this.setTxtComplemento(new JTextField(""));
+           this.getTxtComplemento().setBounds(1200, 230, 150, 25);
+           
+            ctnJanela02.add(iblComplemento );
+            ctnJanela02.add(txtComplemento );
+            
+            
+    //Bairro
+   
+           this.setIblBairro(new JLabel("Bairro :"));
+           this.getIblBairro().setBounds(10,30 ,100,515);
+       
+           JTextField Bairro= new JTextField(50);
+           this.setTxtBairro(new JTextField(""));
+           this.getTxtBairro().setBounds(100,280,200, 25);
+           
+            ctnJanela02.add(iblBairro );
+            ctnJanela02.add(txtBairro );
+            
+            
+            
+            //Cidade 
+            
+           this.setIblCidade (new JLabel("Cidade  :"));
+           this.getIblCidade ().setBounds(350,30 ,100,515);
+       
+           JTextField Cidade = new JTextField(50);
+           this.setTxtCidade (new JTextField(""));
+           this.getTxtCidade ().setBounds(410,280,200, 25);
+           
+            ctnJanela02.add(iblCidade  );
+            ctnJanela02.add(txtCidade  );
+            
+         // CEP
+            
+           this.setIblCEP(new JLabel("CEP :"));
+           this.getIblCEP().setBounds(10,50 ,100,550);
+       
+           JTextField CEP= new JTextField(50);
+           this.setTxtCEP(new JTextField(""));
+           this.getTxtCEP().setBounds(100,318,200, 25);
+           
+            ctnJanela02.add(iblCEP );
+            ctnJanela02.add(txtCEP );
+            
+        //Uf
+            
+           this.setIblUf(new JLabel("UF:"));
+           this.getIblUf().setBounds(350,50 ,100,550);
+       
+           JTextField Uf= new JTextField(50);
+           this.setTxtUf(new JTextField(""));
+           this.getTxtUf().setBounds(400,314,200, 25);
+           
+            ctnJanela02.add(iblUf );
+            ctnJanela02.add(txtUf );
+            
+      // Tempo de residencia 
+            
+           this.setIblTempo_de_residencia(new JLabel("Tempo de Residência:"));
+           this.getIblTempo_de_residencia().setBounds(659,50 ,300,550);
+       
+           JTextField Tempo_de_residencia= new JTextField(50);
+           this.setTxtTempo_de_residencia(new JTextField(""));
+           this.getTxtTempo_de_residencia().setBounds(790,318,200, 25);
+           
+            ctnJanela02.add(iblTempo_de_residencia );
+            ctnJanela02.add(txtTempo_de_residencia );
+            
+       // Valor do Patrimonio 
+    
+                         
+           this.setIblValor_do_Patrimonio(new JLabel("Valor do Patrimonio:"));
+           this.getIblValor_do_Patrimonio().setBounds(1020,50 ,250,550);
+       
+           JTextField Valor_do_Patrimonio= new JTextField(50);
+           this.setTxtValor_do_Patrimonio(new JTextField(""));
+           this.getTxtValor_do_Patrimonio().setBounds(1140,318,206, 25);
+           
+            ctnJanela02.add(iblValor_do_Patrimonio );
+            ctnJanela02.add(txtValor_do_Patrimonio );
+           
+            
+      //Tipo de Residencia 
+            
+  
+           this.setIblTipo_de_residencia(new JLabel("Tipo de Residência:"));
+           this.getIblTipo_de_residencia().setBounds(10,50 ,350,650);
+       
+           JTextField Tipo_de_residencia= new JTextField(50);
+           this.setTxtTipo_de_residencia(new JTextField(""));
+           this.getTxtTipo_de_residencia().setBounds(130,365,206, 25);
+           
+            ctnJanela02.add(iblTipo_de_residencia );
+            ctnJanela02.add(txtTipo_de_residencia );
+            
+            // 1 - Própria 
+            
+           this.setIblPropria(new JLabel("1-Própria:"));
+           this.getIblPropria().setBounds(349,50 ,350,650);
+       
+           JTextField Propria= new JTextField(50);
+           this.setTxtPropria(new JTextField(""));
+           this.getTxtPropria().setBounds(419,365,200, 20);
+           
+            ctnJanela02.add(iblPropria );
+            ctnJanela02.add(txtPropria );
+            
+    
+            
+            // 2 - Alugada 
+            
+            this.setIblAlugada(new JLabel("2-Alugada:"));
+           this.getIblAlugada().setBounds(650,50 ,450,650);
+       
+           JTextField Alugada= new JTextField(50);
+           this.setTxtAlugada(new JTextField(""));
+           this.getTxtAlugada().setBounds(713,365,200, 20);
+           
+            ctnJanela02.add(iblAlugada );
+            ctnJanela02.add(txtAlugada );
+            
+            // 3 - Com Parentes 
+            
+           this.setIblCom_Parentes(new JLabel("3-Com Parentes:"));
+           this.getIblCom_Parentes().setBounds(930,50 ,350,650);
+       
+           JTextField Com_Parentes= new JTextField(50);
+           this.setTxtCom_Parentes(new JTextField(""));
+           this.getTxtCom_Parentes().setBounds(1040,365,200,20);
+           
+            ctnJanela02.add(iblCom_Parentes );
+            ctnJanela02.add(txtCom_Parentes );
+            
+            // 4 -Funcional 
+          
+            this.setIblFuncional(new JLabel("4 - Funcional:"));
+           this.getIblFuncional().setBounds(320,50 ,350,850);
+       
+           JTextField Funcional= new JTextField(50);
+           this.setTxtFuncional(new JTextField(""));
+           this.getTxtFuncional().setBounds(420,415,200, 20);
+           
+            ctnJanela02.add(iblFuncional );
+            ctnJanela02.add(txtFuncional );
+          
+           
+    }
+  }
+  
+  
+            ******* Para Testar ********
+            
+            
+            *****************************
+            
+            package prova2;
+
+/**
+ *
+ * @author pedro
+ */
+public class Aula01 {
+   
+    public static void main(String []args){
+      Janela02 frm1 = new Janela02(); 
+            
+   }
+}
+            
+    *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
